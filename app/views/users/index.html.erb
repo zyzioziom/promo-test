@@ -1,0 +1,26 @@
+<h1>Użytkownicy</h1>
+
+<table>
+	<tr>
+    <th>Test?</th>
+    <th>id</th>
+    <th>google_id</th>
+    <th>name</th>
+    <th>lastname</th>
+    <th>email</th>
+    <th>created_at</th>
+    <th>updated_at</th>
+  </tr>
+<% @users.each do |user| %>
+<tr>
+	<td>test</td>
+	<td><%= user.id %></td>
+	<td><%= user.google_id %></td>
+	<td><%= user.name %></td>
+	<td><%= user.lastname %></td>
+	<td><%= user.email %></td>
+	<td><%= user.created_at %></td>
+	<td><%= user.updated_at %></td>
+	<td><%= link_to "Zobacz profil", user_path(user) %></td>
+</tr>
+<% end %>

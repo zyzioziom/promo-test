@@ -1,0 +1,28 @@
+<h1>Plakaty</h1>
+
+
+<table>
+	<tr>
+    <th>Test?</th>
+    <th>id</th>
+    <th>date</th>
+    <th>place</th>
+    <th>description</th>
+    <th>program</th>
+    <th>modifier</th>
+    <th>created_at</th>
+    <th>updated_at</th>
+  </tr>
+<% @posters.each do |poster| %>
+<tr>
+	<td>test</td>
+	<td><%= poster.id %></td>
+	<td><%= poster.date %></td>
+	<td><%= poster.place %></td>
+	<td><%= poster.description %></td>
+	<td><%= poster.program %></td>
+	<td><%= poster.modifier %></td>
+	<td><%= poster.created_at %></td>
+	<td><%= poster.updated_at %></td>
+</tr>
+<% end %>

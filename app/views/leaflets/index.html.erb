@@ -1,0 +1,29 @@
+<h1>Ulotki</h1>
+
+
+<p>Sortowane od najmniejszej do największej daty, ale trzeba to dzielić na kolumny</p>
+<table>
+	<tr>
+    <th>Test?</th>
+    <th>id</th>
+    <th>date</th>
+    <th>place</th>
+    <th>description</th>
+    <th>program</th>
+    <th>modifier</th>
+    <th>created_at</th>
+    <th>updated_at</th>
+  </tr>
+<% @leaflets.each do |leaflet| %>
+<tr>
+	<td>test</td>
+	<td><%= leaflet.id %></td>
+	<td><%= leaflet.date %></td>
+	<td><%= leaflet.place %></td>
+	<td><%= leaflet.description %></td>
+	<td><%= leaflet.program %></td>
+	<td><%= leaflet.modifier %></td>
+	<td><%= leaflet.created_at %></td>
+	<td><%= leaflet.updated_at %></td>
+</tr>
+<% end %>

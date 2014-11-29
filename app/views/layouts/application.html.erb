@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html style="width:100%; height:100%; padding:0; margin:0;">
+<head>
+  <title>PromoTest</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body style="width:100%; height:100%; padding:0; margin:0;">
+	<div style="width:20%; height:100%; background:#ddd; float:left;">
+		<div style="padding:20px;">
+		Profil, ranking itp.
+	</div>
+	</div>
+	<div style="width:80%; float:right;">
+		<div style="width:100%; background:lightblue; padding:10px;">
+			<p><%= link_to "Strona główna", "/" %> | 
+				<%= link_to "Użytkownicy", users_path %> | 
+				<%= link_to "Ulotki", leaflets_path %> | 
+				<%= link_to "Plakaty", posters_path %> | 
+				<%= link_to "Wykłady", lectures_path %> | 
+				<%= link_to "Inne", others_path %>
+
+		</div>
+<div style="padding:20px;">
+<%= yield %>
+</div>
+</div>
+</body>
+</html>

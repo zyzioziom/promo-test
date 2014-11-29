@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  activity: MyString
+  global_citizen: false
+  global_talents: false
+  future_leaders: false
+  university: false
+  career_days: false
+  career_forum: false
+  youth_to_business: false
+  global_host: false
+
+two:
+  activity: MyString
+  global_citizen: false
+  global_talents: false
+  future_leaders: false
+  university: false
+  career_days: false
+  career_forum: false
+  youth_to_business: false
+  global_host: false

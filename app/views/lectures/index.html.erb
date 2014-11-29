@@ -1,0 +1,30 @@
+<h1>Wykłady</h1>
+
+
+<table>
+	<tr>
+    <th>Test?</th>
+    <th>id</th>
+    <th>day</th>
+    <th>time</th>
+    <th>place</th>
+    <th>description</th>
+    <th>program</th>
+    <th>modifier</th>
+    <th>created_at</th>
+    <th>updated_at</th>
+  </tr>
+<% @lectures.each do |lecture| %>
+<tr>
+	<td>test</td>
+	<td><%= lecture.id %></td>
+	<td><%= lecture.day %></td>
+	<td><%= lecture.time %></td>
+	<td><%= lecture.place %></td>
+	<td><%= lecture.description %></td>
+	<td><%= lecture.program %></td>
+	<td><%= lecture.modifier %></td>
+	<td><%= lecture.created_at %></td>
+	<td><%= lecture.updated_at %></td>
+</tr>
+<% end %>

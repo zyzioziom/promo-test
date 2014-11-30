@@ -11,7 +11,8 @@
       <td style="border:dotted 1px; padding:5px;">
       <strong><%= lecture.place %></strong><br/>
   	  <%= lecture.description %><br/>
-
+  	  <%= lecture.time %><br/>
+  	  <%= link_to "Zapisz się", lecture_path(lecture) %>
       </td>
 	  <% end %>
     </tr>

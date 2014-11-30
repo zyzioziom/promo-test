@@ -4,4 +4,8 @@ class LeafletsController < ApplicationController
   	@leaflets = Leaflet.order(:date) 
 
   end
+
+  def show
+  	@leaflets = Leaflet.find(params[:id])
+  end
 end

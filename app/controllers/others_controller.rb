@@ -3,4 +3,8 @@ class OthersController < ApplicationController
   	# ordered from earliest to latest date
   	@others = Other.order(:date)
   end
+
+  def show
+  	@others = Other.find(params[:id])
+  end
 end

@@ -1,0 +1,11 @@
+<h1>Zapisz się na ulotkowanie</h1>
+<hr/>
+<p><strong>Dzień ulotkowania:</strong> <%= l(@leaflets.date, :format => '%A, %d %b %Y') %></p>
+<p><strong>Gdzie:</strong> <%= @leaflets.place %></p>
+<p><strong>Opis:</strong> <%= @leaflets.description %></p>
+
+<% if @leaflets.modifier != 1 %>
+  <p>Za tą aktywność otrzymasz <%= @leaflets.modifier %>x więcej punktów!</p>
+<% end %>
+
+

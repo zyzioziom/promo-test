@@ -1,5 +1,6 @@
 class OthersController < ApplicationController
   def index
-  	@others = Other.all
+  	# ordered from earliest to latest date
+  	@others = Other.order(:date)
   end
 end

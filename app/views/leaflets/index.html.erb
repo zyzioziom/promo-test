@@ -1,29 +1,24 @@
 <h1>Ulotki</h1>
 
 
-<p>Sortowane od najmniejszej do największej daty, ale trzeba to dzielić na kolumny</p>
-<table>
-	<tr>
-    <th>Test?</th>
-    <th>id</th>
-    <th>date</th>
-    <th>place</th>
-    <th>description</th>
-    <th>program</th>
-    <th>modifier</th>
-    <th>created_at</th>
-    <th>updated_at</th>
-  </tr>
-<% @leaflets.each do |leaflet| %>
-<tr>
-	<td>test</td>
-	<td><%= leaflet.id %></td>
-	<td><%= leaflet.date %></td>
-	<td><%= leaflet.place %></td>
-	<td><%= leaflet.description %></td>
-	<td><%= leaflet.program %></td>
-	<td><%= leaflet.modifier %></td>
-	<td><%= leaflet.created_at %></td>
-	<td><%= leaflet.updated_at %></td>
-</tr>
-<% end %>
+
+
+<!-- group all sorted leaflets by date -->
+<%= @leaflets.group_by(&:date).each do |date, leaflets| %>
+  <p><%= l(date, :format => '%A, %d %b %Y') %></p> <!-- localized date formatting: Weekday, day month year -->
+  
+
+  <table>
+    <tr>
+  	  <% leaflets.each do |leaflet| %>
+      <td style="border:dotted 1px; padding:5px;">
+      <strong><%= leaflet.place %></strong><br/>
+  	  <%= leaflet.description %><br/>
+
+      </td>
+	  <% end %>
+    </tr>
+
+  </table>
+  
+  <% end %>

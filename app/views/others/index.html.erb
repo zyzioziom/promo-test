@@ -1,30 +1,22 @@
 <h1>Inne</h1>
 
 
-<table>
-	<tr>
-    <th>Test?</th>
-    <th>id</th>
-    <th>date</th>
-    <th>place</th>
-    <th>description</th>
-    <th>program</th>
-    <th>points</th>
-    <th>image</th>
-    <th>created_at</th>
-    <th>updated_at</th>
-  </tr>
-<% @others.each do |other| %>
-<tr>
-	<td>test</td>
-	<td><%= other.id %></td>
-	<td><%= other.date %></td>
-	<td><%= other.place %></td>
-	<td><%= other.description %></td>
-	<td><%= other.program %></td>
-	<td><%= other.points %></td>
-	<td><%= other.image %></td>
-	<td><%= other.created_at %></td>
-	<td><%= other.updated_at %></td>
-</tr>
-<% end %>
+<!-- group all sorted others by date -->
+<%= @others.group_by(&:date).each do |date, others| %>
+  <p><%= l(date, :format => '%A, %d %b %Y') %></p> <!-- localized date formatting: Weekday, day month year -->
+  
+
+  <table>
+    <tr>
+  	  <% others.each do |other| %>
+      <td style="border:dotted 1px; padding:5px;">
+      <strong><%= other.name %></strong><br/>
+  	  <%= other.description %><br/>
+
+      </td>
+	  <% end %>
+    </tr>
+
+  </table>
+  
+  <% end %>

@@ -1,28 +1,22 @@
 <h1>Plakaty</h1>
 
 
-<table>
-	<tr>
-    <th>Test?</th>
-    <th>id</th>
-    <th>date</th>
-    <th>place</th>
-    <th>description</th>
-    <th>program</th>
-    <th>modifier</th>
-    <th>created_at</th>
-    <th>updated_at</th>
-  </tr>
-<% @posters.each do |poster| %>
-<tr>
-	<td>test</td>
-	<td><%= poster.id %></td>
-	<td><%= poster.date %></td>
-	<td><%= poster.place %></td>
-	<td><%= poster.description %></td>
-	<td><%= poster.program %></td>
-	<td><%= poster.modifier %></td>
-	<td><%= poster.created_at %></td>
-	<td><%= poster.updated_at %></td>
-</tr>
-<% end %>
+<!-- group all sorted posters by date -->
+<%= @posters.group_by(&:date).each do |date, posters| %>
+  <p><%= l(date, :format => '%A, %d %b %Y') %></p> <!-- localized date formatting: Weekday, day month year -->
+  
+
+  <table>
+    <tr>
+  	  <% posters.each do |poster| %>
+      <td style="border:dotted 1px; padding:5px;">
+      <strong><%= poster.place %></strong><br/>
+  	  <%= poster.description %><br/>
+
+      </td>
+	  <% end %>
+    </tr>
+
+  </table>
+  
+  <% end %>

@@ -1,5 +1,6 @@
 class PostersController < ApplicationController
   def index
-  	@posters = Poster.all
+  	# ordered from earliest to latest date
+  	@posters = Poster.order(:date)
   end
 end

@@ -1,5 +1,6 @@
 class LecturesController < ApplicationController
   def index
-  	@lectures = Lecture.all
+  	# ordered from earliest to latest date
+  	@lectures = Lecture.order(:day)
   end
 end

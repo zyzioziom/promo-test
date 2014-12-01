@@ -12,7 +12,8 @@ class LecturesController < ApplicationController
   	@saturdays = Lecture.where day: "sobota"
   	@sundays = Lecture.where day: "niedziela"
 
-  	@sun = @sundays.count
+  	# create array of weekdays to create simple code in view
+  	@weekdays = [@mondays, @tuesdays, @wednesdays, @thursdays, @fridays, @saturdays, @sundays]
   end
 
   def show

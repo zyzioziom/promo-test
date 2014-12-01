@@ -18067,3 +18067,2030 @@ Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-01 14:04:24 +01
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 14:04:24 +0100
+
+
+Started GET "/lectures/2" for 127.0.0.1 at 2014-12-01 14:05:51 +0100
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mLecture Load (0.4ms)[0m  SELECT  "lectures".* FROM "lectures"  WHERE "lectures"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered lectures/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 148ms (Views: 145.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/lectures/1" for 127.0.0.1 at 2014-12-01 14:05:53 +0100
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT  "lectures".* FROM "lectures"  WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered lectures/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 132ms (Views: 130.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lectures/3" for 127.0.0.1 at 2014-12-01 14:05:58 +0100
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mLecture Load (0.2ms)[0m  SELECT  "lectures".* FROM "lectures"  WHERE "lectures"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered lectures/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 138ms (Views: 136.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 14:06:20 +0100
+Processing by LecturesController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  [1m[35mLecture Load (0.5ms)[0m  SELECT "lectures".* FROM "lectures"   ORDER BY "lectures"."time" ASC
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'wtorek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'środa'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'piątek'
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'sobota'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'
+  Rendered lectures/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 174ms (Views: 166.7ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-01 14:06:20 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-01 14:06:20 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-01 14:06:20 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-01 14:06:20 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-12-01 14:06:20 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-01 14:06:20 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-01 14:06:20 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-01 14:06:20 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-01 14:06:20 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-01 14:06:20 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-01 14:06:20 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-01 14:06:20 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-01 14:06:20 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-01 14:06:20 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-12-01 14:06:20 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-01 14:06:20 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 14:06:20 +0100
+
+
+Started GET "/lectures/4" for 127.0.0.1 at 2014-12-01 14:06:22 +0100
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT  "lectures".* FROM "lectures"  WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered lectures/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 137ms (Views: 135.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/others" for 127.0.0.1 at 2014-12-01 14:06:57 +0100
+Processing by OthersController#index as HTML
+  [1m[35mOther Load (0.4ms)[0m  SELECT "others".* FROM "others"   ORDER BY "others"."date" ASC
+  Rendered others/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 149ms (Views: 145.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/others/3" for 127.0.0.1 at 2014-12-01 14:06:59 +0100
+Processing by OthersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mOther Load (0.3ms)[0m  [1mSELECT  "others".* FROM "others"  WHERE "others"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered others/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 152ms (Views: 150.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/others/6" for 127.0.0.1 at 2014-12-01 14:07:07 +0100
+Processing by OthersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mOther Load (0.2ms)[0m  SELECT  "others".* FROM "others"  WHERE "others"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered others/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 167ms (Views: 165.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 14:07:13 +0100
+Processing by LecturesController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  [1m[35mLecture Load (0.3ms)[0m  SELECT "lectures".* FROM "lectures"   ORDER BY "lectures"."time" ASC
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'wtorek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'środa'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'piątek'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'sobota'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'
+  Rendered lectures/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 159ms (Views: 153.7ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 14:12:17 +0100
+Processing by LecturesController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  [1m[35mLecture Load (0.7ms)[0m  SELECT "lectures".* FROM "lectures"   ORDER BY "lectures"."time" ASC
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'wtorek'[0m
+  [1m[35mLecture Load (0.3ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'środa'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'piątek'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'sobota'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'
+  Rendered lectures/index.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 166ms (Views: 160.5ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-01 14:12:17 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-01 14:12:18 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-01 14:12:18 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-12-01 14:12:18 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-01 14:12:18 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-01 14:12:18 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-01 14:12:18 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-01 14:12:18 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-01 14:12:18 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-01 14:12:18 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-01 14:12:18 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-01 14:12:18 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-01 14:12:18 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 14:12:18 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-01 14:12:18 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-01 14:12:18 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-12-01 14:12:18 +0100
+
+
+Started GET "/leaflets" for 127.0.0.1 at 2014-12-01 14:12:21 +0100
+Processing by LeafletsController#index as HTML
+  [1m[36mLeaflet Load (0.3ms)[0m  [1mSELECT "leaflets".* FROM "leaflets"   ORDER BY "leaflets"."date" ASC[0m
+  Rendered leaflets/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 159ms (Views: 142.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-12-01 14:12:31 +0100
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 161ms (Views: 157.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2014-12-01 14:12:33 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 158ms (Views: 155.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-01 14:12:36 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 150ms (Views: 148.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 14:12:41 +0100
+Processing by LecturesController#index as HTML
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'
+  [1m[36mLecture Load (0.4ms)[0m  [1mSELECT "lectures".* FROM "lectures"   ORDER BY "lectures"."time" ASC[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'
+  [1m[36mLecture Load (0.3ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'środa'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'czwartek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'piątek'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'sobota'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  Rendered lectures/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 159ms (Views: 153.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/leaflets" for 127.0.0.1 at 2014-12-01 14:12:43 +0100
+Processing by LeafletsController#index as HTML
+  [1m[35mLeaflet Load (0.4ms)[0m  SELECT "leaflets".* FROM "leaflets"   ORDER BY "leaflets"."date" ASC
+  Rendered leaflets/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 137ms (Views: 135.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posters" for 127.0.0.1 at 2014-12-01 14:12:44 +0100
+Processing by PostersController#index as HTML
+  [1m[36mPoster Load (0.4ms)[0m  [1mSELECT "posters".* FROM "posters"   ORDER BY "posters"."date" ASC[0m
+  Rendered posters/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 163ms (Views: 152.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/others" for 127.0.0.1 at 2014-12-01 14:12:46 +0100
+Processing by OthersController#index as HTML
+  [1m[35mOther Load (0.4ms)[0m  SELECT "others".* FROM "others"   ORDER BY "others"."date" ASC
+  Rendered others/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 146ms (Views: 145.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-01 14:12:48 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 140ms (Views: 138.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-12-01 14:12:50 +0100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 134ms (Views: 132.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2014-12-01 14:12:53 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 140ms (Views: 138.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/leaflets" for 127.0.0.1 at 2014-12-01 14:12:56 +0100
+Processing by LeafletsController#index as HTML
+  [1m[36mLeaflet Load (0.3ms)[0m  [1mSELECT "leaflets".* FROM "leaflets"   ORDER BY "leaflets"."date" ASC[0m
+  Rendered leaflets/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 143ms (Views: 142.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/leaflets/3" for 127.0.0.1 at 2014-12-01 14:13:03 +0100
+Processing by LeafletsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mLeaflet Load (0.3ms)[0m  SELECT  "leaflets".* FROM "leaflets"  WHERE "leaflets"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered leaflets/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 149ms (Views: 146.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posters" for 127.0.0.1 at 2014-12-01 14:13:07 +0100
+Processing by PostersController#index as HTML
+  [1m[36mPoster Load (0.4ms)[0m  [1mSELECT "posters".* FROM "posters"   ORDER BY "posters"."date" ASC[0m
+  Rendered posters/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 149ms (Views: 147.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posters/5" for 127.0.0.1 at 2014-12-01 14:13:13 +0100
+Processing by PostersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPoster Load (0.3ms)[0m  SELECT  "posters".* FROM "posters"  WHERE "posters"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered posters/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 142ms (Views: 140.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posters" for 127.0.0.1 at 2014-12-01 14:13:16 +0100
+Processing by PostersController#index as HTML
+  [1m[36mPoster Load (0.4ms)[0m  [1mSELECT "posters".* FROM "posters"   ORDER BY "posters"."date" ASC[0m
+  Rendered posters/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 146ms (Views: 144.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 14:13:18 +0100
+Processing by LecturesController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'
+  [1m[36mLecture Load (0.3ms)[0m  [1mSELECT "lectures".* FROM "lectures"   ORDER BY "lectures"."time" ASC[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'
+  [1m[36mLecture Load (0.3ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'środa'
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'czwartek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'piątek'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'sobota'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  Rendered lectures/index.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 155ms (Views: 150.2ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/lectures/4" for 127.0.0.1 at 2014-12-01 14:13:21 +0100
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mLecture Load (0.2ms)[0m  SELECT  "lectures".* FROM "lectures"  WHERE "lectures"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered lectures/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 142ms (Views: 140.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/others" for 127.0.0.1 at 2014-12-01 14:13:25 +0100
+Processing by OthersController#index as HTML
+  [1m[36mOther Load (0.5ms)[0m  [1mSELECT "others".* FROM "others"   ORDER BY "others"."date" ASC[0m
+  Rendered others/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 146ms (Views: 144.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/others/2" for 127.0.0.1 at 2014-12-01 14:13:29 +0100
+Processing by OthersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mOther Load (0.2ms)[0m  SELECT  "others".* FROM "others"  WHERE "others"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered others/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 136ms (Views: 134.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/others/1" for 127.0.0.1 at 2014-12-01 14:13:33 +0100
+Processing by OthersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mOther Load (0.2ms)[0m  [1mSELECT  "others".* FROM "others"  WHERE "others"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered others/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 140ms (Views: 138.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/leaflets" for 127.0.0.1 at 2014-12-01 14:13:39 +0100
+Processing by LeafletsController#index as HTML
+  [1m[35mLeaflet Load (0.4ms)[0m  SELECT "leaflets".* FROM "leaflets"   ORDER BY "leaflets"."date" ASC
+  Rendered leaflets/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 142ms (Views: 141.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/leaflets/3" for 127.0.0.1 at 2014-12-01 14:13:41 +0100
+Processing by LeafletsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mLeaflet Load (0.2ms)[0m  [1mSELECT  "leaflets".* FROM "leaflets"  WHERE "leaflets"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered leaflets/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 140ms (Views: 138.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/leaflets/1" for 127.0.0.1 at 2014-12-01 14:13:46 +0100
+Processing by LeafletsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLeaflet Load (0.2ms)[0m  SELECT  "leaflets".* FROM "leaflets"  WHERE "leaflets"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered leaflets/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 140ms (Views: 137.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-01 14:13:58 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 139ms (Views: 138.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/others" for 127.0.0.1 at 2014-12-01 14:14:04 +0100
+Processing by OthersController#index as HTML
+  [1m[36mOther Load (0.5ms)[0m  [1mSELECT "others".* FROM "others"   ORDER BY "others"."date" ASC[0m
+  Rendered others/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 139ms (Views: 137.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 14:14:06 +0100
+Processing by LecturesController#index as HTML
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'
+  [1m[36mLecture Load (0.4ms)[0m  [1mSELECT "lectures".* FROM "lectures"   ORDER BY "lectures"."time" ASC[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'środa'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'czwartek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'piątek'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'sobota'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  Rendered lectures/index.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 161ms (Views: 156.0ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 19:53:15 +0100
+Processing by LecturesController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'
+  [1m[36mLecture Load (0.3ms)[0m  [1mSELECT "lectures".* FROM "lectures"   ORDER BY "lectures"."time" ASC[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'środa'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'czwartek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'piątek'[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'sobota'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  Rendered lectures/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 222ms (Views: 216.7ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-01 19:53:15 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-01 19:53:15 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-01 19:53:15 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-01 19:53:15 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-01 19:53:15 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-12-01 19:53:15 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-01 19:53:15 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-01 19:53:15 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-01 19:53:15 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-01 19:53:15 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-01 19:53:15 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-01 19:53:15 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-01 19:53:15 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-01 19:53:15 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-12-01 19:53:15 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-01 19:53:15 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 19:53:15 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-01 19:53:18 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 139ms (Views: 138.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-12-01 19:54:05 +0100
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 144ms (Views: 142.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2014-12-01 19:54:07 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 144ms (Views: 142.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/leaflets" for 127.0.0.1 at 2014-12-01 19:54:09 +0100
+Processing by LeafletsController#index as HTML
+  [1m[35mLeaflet Load (0.3ms)[0m  SELECT "leaflets".* FROM "leaflets"   ORDER BY "leaflets"."date" ASC
+  Rendered leaflets/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 144ms (Views: 142.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/leaflets/3" for 127.0.0.1 at 2014-12-01 19:54:12 +0100
+Processing by LeafletsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mLeaflet Load (0.2ms)[0m  [1mSELECT  "leaflets".* FROM "leaflets"  WHERE "leaflets"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered leaflets/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 155ms (Views: 151.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posters" for 127.0.0.1 at 2014-12-01 19:54:20 +0100
+Processing by PostersController#index as HTML
+  [1m[35mPoster Load (0.5ms)[0m  SELECT "posters".* FROM "posters"   ORDER BY "posters"."date" ASC
+  Rendered posters/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 144ms (Views: 142.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 19:54:35 +0100
+Processing by LecturesController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  [1m[35mLecture Load (0.3ms)[0m  SELECT "lectures".* FROM "lectures"   ORDER BY "lectures"."time" ASC
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'wtorek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'środa'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36mLecture Load (0.3ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'piątek'
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'sobota'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'
+  Rendered lectures/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 153ms (Views: 147.7ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/others" for 127.0.0.1 at 2014-12-01 19:54:38 +0100
+Processing by OthersController#index as HTML
+  [1m[36mOther Load (0.4ms)[0m  [1mSELECT "others".* FROM "others"   ORDER BY "others"."date" ASC[0m
+  Rendered others/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 149ms (Views: 147.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-01 19:54:59 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 142ms (Views: 141.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-12-01 19:55:00 +0100
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 136ms (Views: 134.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/leaflets" for 127.0.0.1 at 2014-12-01 19:55:04 +0100
+Processing by LeafletsController#index as HTML
+  [1m[36mLeaflet Load (0.3ms)[0m  [1mSELECT "leaflets".* FROM "leaflets"   ORDER BY "leaflets"."date" ASC[0m
+  Rendered leaflets/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 146ms (Views: 144.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posters" for 127.0.0.1 at 2014-12-01 19:55:08 +0100
+Processing by PostersController#index as HTML
+  [1m[35mPoster Load (0.4ms)[0m  SELECT "posters".* FROM "posters"   ORDER BY "posters"."date" ASC
+  Rendered posters/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 150ms (Views: 148.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 19:55:11 +0100
+Processing by LecturesController#index as HTML
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  [1m[35mLecture Load (0.3ms)[0m  SELECT "lectures".* FROM "lectures"   ORDER BY "lectures"."time" ASC
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'wtorek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'środa'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'piątek'
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'sobota'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'
+  Rendered lectures/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 154ms (Views: 148.7ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/others" for 127.0.0.1 at 2014-12-01 19:55:13 +0100
+Processing by OthersController#index as HTML
+  [1m[36mOther Load (0.4ms)[0m  [1mSELECT "others".* FROM "others"   ORDER BY "others"."date" ASC[0m
+  Rendered others/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 145ms (Views: 143.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posters" for 127.0.0.1 at 2014-12-01 19:55:14 +0100
+Processing by PostersController#index as HTML
+  [1m[35mPoster Load (0.4ms)[0m  SELECT "posters".* FROM "posters"   ORDER BY "posters"."date" ASC
+  Rendered posters/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 145ms (Views: 144.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/leaflets" for 127.0.0.1 at 2014-12-01 19:55:17 +0100
+Processing by LeafletsController#index as HTML
+  [1m[36mLeaflet Load (0.4ms)[0m  [1mSELECT "leaflets".* FROM "leaflets"   ORDER BY "leaflets"."date" ASC[0m
+  Rendered leaflets/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 143ms (Views: 141.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-01 19:55:19 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 168ms (Views: 166.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-12-01 19:55:43 +0100
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 145ms (Views: 144.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/leaflets" for 127.0.0.1 at 2014-12-01 19:55:44 +0100
+Processing by LeafletsController#index as HTML
+  [1m[36mLeaflet Load (0.4ms)[0m  [1mSELECT "leaflets".* FROM "leaflets"   ORDER BY "leaflets"."date" ASC[0m
+  Rendered leaflets/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 148ms (Views: 146.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posters" for 127.0.0.1 at 2014-12-01 19:55:47 +0100
+Processing by PostersController#index as HTML
+  [1m[35mPoster Load (0.3ms)[0m  SELECT "posters".* FROM "posters"   ORDER BY "posters"."date" ASC
+  Rendered posters/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 146ms (Views: 144.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 19:55:49 +0100
+Processing by LecturesController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  [1m[35mLecture Load (0.4ms)[0m  SELECT "lectures".* FROM "lectures"   ORDER BY "lectures"."time" ASC
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'wtorek'[0m
+  [1m[35mLecture Load (0.6ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'środa'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'piątek'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'sobota'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'
+  Rendered lectures/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 159ms (Views: 151.6ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-01 20:18:56 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 441ms (Views: 349.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-01 20:21:54 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 140ms (Views: 139.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/others" for 127.0.0.1 at 2014-12-01 20:40:39 +0100
+Processing by OthersController#index as HTML
+  [1m[36mOther Load (97.1ms)[0m  [1mSELECT "others".* FROM "others"   ORDER BY "others"."date" ASC[0m
+  Rendered others/index.html.erb within layouts/application (254.3ms)
+Completed 200 OK in 845ms (Views: 672.8ms | ActiveRecord: 97.1ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 20:40:42 +0100
+Processing by LecturesController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'
+  [1m[36mLecture Load (0.3ms)[0m  [1mSELECT "lectures".* FROM "lectures"   ORDER BY "lectures"."time" ASC[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'środa'
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'czwartek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'piątek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'sobota'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  Rendered lectures/index.html.erb within layouts/application (63.8ms)
+Completed 200 OK in 268ms (Views: 263.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/posters" for 127.0.0.1 at 2014-12-01 20:40:44 +0100
+Processing by PostersController#index as HTML
+  [1m[35mPoster Load (0.5ms)[0m  SELECT "posters".* FROM "posters"   ORDER BY "posters"."date" ASC
+  Rendered posters/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 161ms (Views: 159.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/leaflets" for 127.0.0.1 at 2014-12-01 20:40:45 +0100
+Processing by LeafletsController#index as HTML
+  [1m[36mLeaflet Load (0.3ms)[0m  [1mSELECT "leaflets".* FROM "leaflets"   ORDER BY "leaflets"."date" ASC[0m
+  Rendered leaflets/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 172ms (Views: 170.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-12-01 20:40:46 +0100
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 165ms (Views: 164.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-01 20:40:47 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 136ms (Views: 134.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-12-01 20:40:48 +0100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 140ms (Views: 139.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2014-12-01 20:40:50 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 167ms (Views: 165.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-12-01 22:52:13 +0100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 172ms (Views: 170.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-01 22:52:14 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-01 22:52:14 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-01 22:52:14 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-01 22:52:14 +0100
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-01 22:52:14 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-12-01 22:52:14 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-01 22:52:14 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-01 22:52:14 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-01 22:52:14 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-01 22:52:14 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-01 22:52:14 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-01 22:52:14 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 22:52:14 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-01 22:52:14 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-12-01 22:52:14 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-01 22:52:14 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-01 22:52:14 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2014-12-01 23:28:02 +0100
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (85.7ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (358.2ms)
+Completed 200 OK in 2937ms (Views: 2707.2ms | ActiveRecord: 85.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-01 23:28:06 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 347ms (Views: 346.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-01 23:28:07 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-01 23:28:07 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-01 23:28:07 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-01 23:28:07 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-12-01 23:28:07 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-01 23:28:07 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-01 23:28:07 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-01 23:28:07 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-01 23:28:07 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-01 23:28:07 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-12-01 23:28:07 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-01 23:28:07 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-01 23:28:07 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-01 23:28:07 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-01 23:28:07 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-01 23:28:07 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 23:28:07 +0100
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 23:28:09 +0100
+Processing by LecturesController#index as HTML
+  [1m[36m (17.5ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  [1m[35mLecture Load (0.4ms)[0m  SELECT "lectures".* FROM "lectures"   ORDER BY "lectures"."time" ASC
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'wtorek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'środa'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36mLecture Load (0.3ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'piątek'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'sobota'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'
+  Rendered lectures/index.html.erb within layouts/application (55.4ms)
+Completed 200 OK in 297ms (Views: 238.2ms | ActiveRecord: 19.9ms)
+
+
+Started GET "/others" for 127.0.0.1 at 2014-12-01 23:28:13 +0100
+Processing by OthersController#index as HTML
+  [1m[36mOther Load (0.5ms)[0m  [1mSELECT "others".* FROM "others"   ORDER BY "others"."date" ASC[0m
+  Rendered others/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 191ms (Views: 189.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 23:30:30 +0100
+Processing by LecturesController#index as HTML
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'
+  [1m[36mLecture Load (0.4ms)[0m  [1mSELECT "lectures".* FROM "lectures"   ORDER BY "lectures"."time" ASC[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'
+  [1m[36mLecture Load (0.3ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36mLecture Load (0.3ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'środa'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'czwartek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'piątek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'sobota'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  Rendered lectures/index.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 206ms (Views: 199.9ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/posters" for 127.0.0.1 at 2014-12-01 23:30:31 +0100
+Processing by PostersController#index as HTML
+  [1m[35mPoster Load (0.4ms)[0m  SELECT "posters".* FROM "posters"   ORDER BY "posters"."date" ASC
+  Rendered posters/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 233ms (Views: 231.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posters" for 127.0.0.1 at 2014-12-01 23:53:49 +0100
+Processing by PostersController#index as HTML
+  [1m[36mPoster Load (0.9ms)[0m  [1mSELECT "posters".* FROM "posters"   ORDER BY "posters"."date" ASC[0m
+  Rendered posters/index.html.erb within layouts/application (142.6ms)
+Completed 200 OK in 869ms (Views: 793.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/leaflets" for 127.0.0.1 at 2014-12-01 23:53:51 +0100
+Processing by LeafletsController#index as HTML
+  [1m[35mLeaflet Load (0.4ms)[0m  SELECT "leaflets".* FROM "leaflets"   ORDER BY "leaflets"."date" ASC
+  Rendered leaflets/index.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 260ms (Views: 216.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-01 23:53:51 +0100
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-01 23:53:51 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-01 23:53:51 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-01 23:53:51 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-01 23:53:51 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-01 23:53:51 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-12-01 23:53:51 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-01 23:53:51 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-01 23:53:51 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-01 23:53:51 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-01 23:53:51 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-01 23:53:52 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-01 23:53:52 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 23:53:52 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-01 23:53:52 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-01 23:53:52 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-12-01 23:53:52 +0100
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 23:53:52 +0100
+
+SyntaxError (/home/patryk/public_html/promo-test/app/controllers/lectures_controller.rb:15: syntax error, unexpected ',', expecting =>
+  	@weekdays = {@mondays, @tuesdays, @wednesdays, @thu...
+  	                      ^
+/home/patryk/public_html/promo-test/app/controllers/lectures_controller.rb:15: syntax error, unexpected '}', expecting '='
+/home/patryk/public_html/promo-test/app/controllers/lectures_controller.rb:21: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/lectures_controller.rb:15: syntax error, unexpected ',', expecting =>
+  app/controllers/lectures_controller.rb:15: syntax error, unexpected '}', expecting '='
+  app/controllers/lectures_controller.rb:21: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (22.0ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (45.0ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 23:53:52 +0100
+
+SyntaxError (/home/patryk/public_html/promo-test/app/controllers/lectures_controller.rb:15: syntax error, unexpected ',', expecting =>
+  	@weekdays = {@mondays, @tuesdays, @wednesdays, @thu...
+  	                      ^
+/home/patryk/public_html/promo-test/app/controllers/lectures_controller.rb:15: syntax error, unexpected '}', expecting '='
+/home/patryk/public_html/promo-test/app/controllers/lectures_controller.rb:21: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/lectures_controller.rb:15: syntax error, unexpected ',', expecting =>
+  app/controllers/lectures_controller.rb:15: syntax error, unexpected '}', expecting '='
+  app/controllers/lectures_controller.rb:21: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (35.7ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (67.0ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 23:54:32 +0100
+Processing by LecturesController#index as HTML
+  [1m[36mLecture Load (0.7ms)[0m  [1mSELECT "lectures".* FROM "lectures"   ORDER BY "lectures"."time" ASC[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'
+  [1m[36mLecture Load (0.3ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'środa'
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'czwartek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'piątek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'sobota'
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  Rendered lectures/index.html.erb within layouts/application (27.8ms)
+Completed 200 OK in 286ms (Views: 217.4ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-01 23:54:33 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-01 23:54:33 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-01 23:54:33 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-01 23:54:33 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-12-01 23:54:33 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-01 23:54:33 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-01 23:54:33 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-01 23:54:33 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-01 23:54:33 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-01 23:54:33 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-01 23:54:33 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-01 23:54:33 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-01 23:54:33 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-01 23:54:33 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-12-01 23:54:33 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-01 23:54:33 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 23:54:33 +0100
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 23:57:44 +0100
+Processing by LecturesController#index as HTML
+  Rendered lectures/index.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 8ms
+
+SyntaxError (/home/patryk/public_html/promo-test/app/views/lectures/index.html.erb:199: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/lectures/index.html.erb:199: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.7ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.9ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 23:58:21 +0100
+Processing by LecturesController#index as HTML
+  Rendered lectures/index.html.erb within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 11ms
+
+SyntaxError (/home/patryk/public_html/promo-test/app/views/lectures/index.html.erb:198: syntax error, unexpected keyword_ensure, expecting keyword_end):
+  app/views/lectures/index.html.erb:198: syntax error, unexpected keyword_ensure, expecting keyword_end
+
+
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.8ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 23:58:34 +0100
+Processing by LecturesController#index as HTML
+  Rendered lectures/index.html.erb within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 12ms
+
+SyntaxError (/home/patryk/public_html/promo-test/app/views/lectures/index.html.erb:198: syntax error, unexpected keyword_end, expecting end-of-input
+ end ;@output_buffer.to_s
+    ^):
+  app/views/lectures/index.html.erb:198: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (42.8ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 23:58:43 +0100
+Processing by LecturesController#index as HTML
+  Rendered lectures/index.html.erb within layouts/application (15.2ms)
+Completed 500 Internal Server Error in 19ms
+
+SyntaxError (/home/patryk/public_html/promo-test/app/views/lectures/index.html.erb:199: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/lectures/index.html.erb:199: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.0ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 23:58:58 +0100
+Processing by LecturesController#index as HTML
+  Rendered lectures/index.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 8ms
+
+SyntaxError (/home/patryk/public_html/promo-test/app/views/lectures/index.html.erb:198: syntax error, unexpected keyword_ensure, expecting keyword_end):
+  app/views/lectures/index.html.erb:198: syntax error, unexpected keyword_ensure, expecting keyword_end
+
+
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.4ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (39.4ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 23:59:11 +0100
+Processing by LecturesController#index as HTML
+  Rendered lectures/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 10ms
+
+SyntaxError (/home/patryk/public_html/promo-test/app/views/lectures/index.html.erb:54: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/lectures/index.html.erb:54: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (15.2ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (52.4ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 23:59:32 +0100
+Processing by LecturesController#index as HTML
+  [1m[35mLecture Load (0.5ms)[0m  SELECT "lectures".* FROM "lectures"   ORDER BY "lectures"."time" ASC
+  [1m[36mLecture Load (0.3ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35mLecture Load (0.3ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36mLecture Load (0.4ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'środa'[0m
+  [1m[35mLecture Load (0.3ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36mLecture Load (0.4ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'piątek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'sobota'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  Rendered lectures/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 177ms (Views: 173.1ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-01 23:59:32 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-01 23:59:32 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-01 23:59:32 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-01 23:59:32 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-12-01 23:59:32 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-01 23:59:32 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-01 23:59:32 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-01 23:59:32 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-01 23:59:32 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-01 23:59:32 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-01 23:59:32 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-01 23:59:32 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-12-01 23:59:32 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-01 23:59:32 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-01 23:59:32 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-01 23:59:32 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 23:59:32 +0100
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-01 23:59:57 +0100
+Processing by LecturesController#index as HTML
+  [1m[35mLecture Load (0.4ms)[0m  SELECT "lectures".* FROM "lectures"   ORDER BY "lectures"."time" ASC
+  [1m[36mLecture Load (0.4ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35mLecture Load (0.6ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36mLecture Load (0.4ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'środa'[0m
+  [1m[35mLecture Load (0.3ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'piątek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'sobota'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  Rendered lectures/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 170ms (Views: 165.6ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-01 23:59:57 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-01 23:59:57 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-01 23:59:57 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-12-01 23:59:57 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-01 23:59:57 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-01 23:59:57 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-01 23:59:57 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-01 23:59:57 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-01 23:59:57 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-01 23:59:57 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-01 23:59:57 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-01 23:59:57 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-01 23:59:57 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-01 23:59:57 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-12-01 23:59:57 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-01 23:59:57 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-01 23:59:57 +0100
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-02 00:00:26 +0100
+Processing by LecturesController#index as HTML
+  [1m[35mLecture Load (0.5ms)[0m  SELECT "lectures".* FROM "lectures"   ORDER BY "lectures"."time" ASC
+  [1m[36mLecture Load (0.3ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  Rendered lectures/index.html.erb within layouts/application (77.4ms)
+Completed 500 Internal Server Error in 81ms
+
+ActionView::Template::Error (undefined method `day' for #<Lecture::ActiveRecord_Relation:0xb9795f4>):
+    30: 
+    31: <table>
+    32:     <tr>     
+    33:       <h3><% weekday.day %></h3>
+    34:       <% weekday.each do |weekday| %>
+    35:       
+    36:       <td style="border:dotted 1px; padding:5px;">
+  app/views/lectures/index.html.erb:33:in `block in _app_views_lectures_index_html_erb__711119642_97200260'
+  app/views/lectures/index.html.erb:29:in `each'
+  app/views/lectures/index.html.erb:29:in `_app_views_lectures_index_html_erb__711119642_97200260'
+
+
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (22.0ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (38.0ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-02 00:01:29 +0100
+Processing by LecturesController#index as HTML
+  [1m[35mLecture Load (0.4ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'
+  Rendered lectures/index.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `day' for #<Lecture::ActiveRecord_Relation:0xb760fec>):
+     6: 
+     7: <table>
+     8:     <tr>     
+     9:       <h3><% weekday.day %></h3>
+    10:       <% weekday.each do |weekday| %>
+    11:       
+    12:       <td style="border:dotted 1px; padding:5px;">
+  app/views/lectures/index.html.erb:9:in `block in _app_views_lectures_index_html_erb__711119642_96135320'
+  app/views/lectures/index.html.erb:5:in `each'
+  app/views/lectures/index.html.erb:5:in `_app_views_lectures_index_html_erb__711119642_96135320'
+
+
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.4ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-02 00:01:38 +0100
+Processing by LecturesController#index as HTML
+  [1m[36mLecture Load (0.4ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35mLecture Load (0.3ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'środa'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36mLecture Load (0.4ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'piątek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'sobota'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  Rendered lectures/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 170ms (Views: 166.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-02 00:01:38 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-02 00:01:38 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-02 00:01:38 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-02 00:01:38 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-12-02 00:01:38 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-02 00:01:38 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 00:01:38 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 00:01:38 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 00:01:38 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-02 00:01:38 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-02 00:01:38 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 00:01:38 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-02 00:01:38 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-12-02 00:01:38 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-02 00:01:38 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 00:01:38 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-02 00:01:38 +0100
+
+
+Started GET "/lectures/4" for 127.0.0.1 at 2014-12-02 00:01:40 +0100
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mLecture Load (0.4ms)[0m  SELECT  "lectures".* FROM "lectures"  WHERE "lectures"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered lectures/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 176ms (Views: 155.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/lectures/1" for 127.0.0.1 at 2014-12-02 00:01:45 +0100
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLecture Load (0.1ms)[0m  [1mSELECT  "lectures".* FROM "lectures"  WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered lectures/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 140ms (Views: 138.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/lectures/2" for 127.0.0.1 at 2014-12-02 00:01:47 +0100
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mLecture Load (0.2ms)[0m  SELECT  "lectures".* FROM "lectures"  WHERE "lectures"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered lectures/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 138ms (Views: 136.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-02 00:04:57 +0100
+Processing by LecturesController#index as HTML
+  [1m[36mLecture Load (0.4ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35mLecture Load (0.3ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36mLecture Load (0.3ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'środa'[0m
+  [1m[35mLecture Load (0.3ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'piątek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'sobota'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  Rendered lectures/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 163ms (Views: 157.9ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-02 00:04:58 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-12-02 00:04:58 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-02 00:04:58 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-02 00:04:58 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-02 00:04:58 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-02 00:04:58 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 00:04:58 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 00:04:58 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 00:04:58 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 00:04:58 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-02 00:04:58 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-02 00:04:58 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-12-02 00:04:58 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-02 00:04:58 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-02 00:04:58 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 00:04:58 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-02 00:04:58 +0100
+
+
+Started GET "/lectures/2" for 127.0.0.1 at 2014-12-02 00:10:56 +0100
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mLecture Load (0.2ms)[0m  SELECT  "lectures".* FROM "lectures"  WHERE "lectures"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered lectures/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 148ms (Views: 137.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/lectures/3" for 127.0.0.1 at 2014-12-02 00:10:59 +0100
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT  "lectures".* FROM "lectures"  WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered lectures/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 140ms (Views: 138.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-02 00:12:11 +0100
+Processing by LecturesController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'
+  [1m[36mLecture Load (0.3ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'środa'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'środa'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'piątek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'piątek'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'sobota'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'sobota'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  Rendered lectures/index.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 160ms (Views: 154.6ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-02 00:12:11 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-02 00:12:11 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-02 00:12:11 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-02 00:12:11 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-02 00:12:11 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-12-02 00:12:11 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 00:12:11 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 00:12:11 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 00:12:11 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 00:12:11 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-02 00:12:11 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-02 00:12:11 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-12-02 00:12:11 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-02 00:12:11 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-02 00:12:11 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-02 00:12:11 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 00:12:11 +0100
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-02 00:20:44 +0100
+Processing by LecturesController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36mLecture Load (0.3ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'środa'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'środa'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'piątek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'piątek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'sobota'
+  [1m[36mLecture Load (0.9ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'sobota'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  Rendered lectures/index.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 189ms (Views: 184.3ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-02 00:20:44 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-02 00:20:44 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-02 00:20:44 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-02 00:20:44 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-12-02 00:20:44 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-02 00:20:44 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 00:20:44 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 00:20:44 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 00:20:44 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-02 00:20:44 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 00:20:44 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-02 00:20:44 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-02 00:20:44 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-02 00:20:44 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 00:20:44 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-12-02 00:20:44 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-02 00:20:44 +0100
+
+
+Started GET "/lectures/2" for 127.0.0.1 at 2014-12-02 00:20:49 +0100
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mLecture Load (0.2ms)[0m  SELECT  "lectures".* FROM "lectures"  WHERE "lectures"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered lectures/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 140ms (Views: 137.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-02 00:21:02 +0100
+Processing by LecturesController#index as HTML
+  [1m[36m (1.1ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  Rendered lectures/index.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    13:       <% end %>
+    14:       <% end %>
+    15: 
+    16:       <% weekday.each do |weekday| %>
+    17:       
+    18:       <td style="border:dotted 1px; padding:5px;">
+    19:     
+  app/views/lectures/index.html.erb:16:in `block in _app_views_lectures_index_html_erb__711119642_99794870'
+  app/views/lectures/index.html.erb:5:in `each'
+  app/views/lectures/index.html.erb:5:in `_app_views_lectures_index_html_erb__711119642_99794870'
+
+
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.9ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-02 00:21:07 +0100
+Processing by LecturesController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'
+  [1m[36mLecture Load (0.3ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'środa'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'środa'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'piątek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'piątek'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'sobota'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'sobota'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  Rendered lectures/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 172ms (Views: 167.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-02 00:21:07 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-02 00:21:07 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-02 00:21:07 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-02 00:21:07 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-12-02 00:21:07 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-02 00:21:07 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 00:21:07 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:07 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:07 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:07 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:07 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:07 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:07 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:07 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:07 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:07 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:08 +0100
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-02 00:21:39 +0100
+Processing by LecturesController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36mLecture Load (0.3ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'środa'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'środa'[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'piątek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'piątek'[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'sobota'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'sobota'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'
+  [1m[36mLecture Load (0.5ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  Rendered lectures/index.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 178ms (Views: 172.6ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-02 00:21:39 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-02 00:21:39 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-12-02 00:21:39 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-02 00:21:39 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-02 00:21:39 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-02 00:21:39 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 00:21:39 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:39 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:39 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:39 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:39 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:39 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:39 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:39 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:39 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:39 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:39 +0100
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-02 00:21:49 +0100
+Processing by LecturesController#index as HTML
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'
+  [1m[36mLecture Load (0.3ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36mLecture Load (0.3ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'środa'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'środa'[0m
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36mLecture Load (0.4ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'piątek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'piątek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'sobota'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'sobota'[0m
+  [1m[35m (1.3ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  Rendered lectures/index.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 184ms (Views: 176.6ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-02 00:21:49 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-02 00:21:49 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-02 00:21:49 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 00:21:49 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-12-02 00:21:49 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-02 00:21:49 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-02 00:21:49 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:49 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:49 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:49 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:49 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:49 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:49 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:49 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:49 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:49 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 00:21:49 +0100
+
+
+Started GET "/others" for 127.0.0.1 at 2014-12-02 00:21:54 +0100
+Processing by OthersController#index as HTML
+  [1m[35mOther Load (0.4ms)[0m  SELECT "others".* FROM "others"   ORDER BY "others"."date" ASC
+  Rendered others/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 168ms (Views: 153.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/others/5" for 127.0.0.1 at 2014-12-02 00:22:02 +0100
+Processing by OthersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mOther Load (0.3ms)[0m  [1mSELECT  "others".* FROM "others"  WHERE "others"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered others/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 153ms (Views: 151.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posters" for 127.0.0.1 at 2014-12-02 00:22:04 +0100
+Processing by PostersController#index as HTML
+  [1m[35mPoster Load (0.3ms)[0m  SELECT "posters".* FROM "posters"   ORDER BY "posters"."date" ASC
+  Rendered posters/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 154ms (Views: 150.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/posters/2" for 127.0.0.1 at 2014-12-02 00:22:06 +0100
+Processing by PostersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPoster Load (0.3ms)[0m  [1mSELECT  "posters".* FROM "posters"  WHERE "posters"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered posters/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 161ms (Views: 158.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-02 00:22:08 +0100
+Processing by LecturesController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'środa'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'środa'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'piątek'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'piątek'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'sobota'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'sobota'[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  Rendered lectures/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 155ms (Views: 151.0ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/lectures/1" for 127.0.0.1 at 2014-12-02 00:22:11 +0100
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLecture Load (0.2ms)[0m  SELECT  "lectures".* FROM "lectures"  WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered lectures/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 142ms (Views: 139.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lectures/2" for 127.0.0.1 at 2014-12-02 00:25:02 +0100
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT  "lectures".* FROM "lectures"  WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered lectures/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 144ms (Views: 141.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lectures/3" for 127.0.0.1 at 2014-12-02 00:25:04 +0100
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mLecture Load (0.2ms)[0m  SELECT  "lectures".* FROM "lectures"  WHERE "lectures"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered lectures/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 142ms (Views: 140.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-02 00:25:07 +0100
+Processing by LecturesController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'poniedziałek'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'wtorek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'wtorek'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'środa'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'środa'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'czwartek'[0m
+  [1m[35mLecture Load (0.3ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'czwartek'
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'piątek'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'piątek'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'sobota'[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'sobota'
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE "lectures"."day" = 'niedziela'[0m
+  [1m[35mLecture Load (0.1ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE "lectures"."day" = 'niedziela'
+  Rendered lectures/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 153ms (Views: 148.7ms | ActiveRecord: 2.6ms)

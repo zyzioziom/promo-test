@@ -1,174 +1,29 @@
 <h1>Wykłady</h1>
 
-<!-- group all sorted lectures by date 
-<%= @lectures.group_by(&:day).each do |day, lectures| %>
-  <p><%= day %></p> <!-- weekday -->
-  
-<!--
-  <table>
-    <tr>
-  	  <% lectures.each do |lecture| %>
-      <td style="border:dotted 1px; padding:5px;">
-      <strong><%= lecture.place %></strong><br/>
-  	  <%= lecture.description %><br/>
-  	  <%= lecture.time %><br/>
-  	  <%= link_to "Zapisz się", lecture_path(lecture) %>
-      </td>
-	  <% end %>
-    </tr>
 
-  </table>
-  
-  <% end %>
+ <!-- manually divide by weekdays - simple, not very good, but working solution for now -->
+ <% @weekdays.each do |weekday| %>
 
- <hr/>
- <hr/>
-********************************************************  -->
-
- <!-- manually divide by weekdays - simple, (not) working solution for now -->
- <% if @mondays.any? %>
 <table>
     <tr>
-      <!-- display weekday only if lectures -->
-     
-      <h3>Poniedziałek</h3>
-      <% @mondays.each do |monday| %>
+      <% if weekday.any? %>     
       
-      <td style="border:dotted 1px; padding:5px;">
-    
-      <strong><%= monday.place %></strong><br/>
-      <%= monday.description %><br/>
-      <%= monday.time %><br/>
-      <%= link_to "Zapisz się", lecture_path(monday) %>
-      
-      </td>
-      
-    <% end %>
-    
-    </tr>
-  </table>
-  <% end %>
-  
-<% if @tuesdays.any? %>
-<table>
-    <tr>
-      <h3>Wtorek</h3>
-      <% @tuesdays.each do |tuesday| %>
-      
-        <td style="border:dotted 1px; padding:5px;">
-    
-      <strong><%= tuesday.place %></strong><br/>
-      <%= tuesday.description %><br/>
-      <%= tuesday.time %><br/>
-      <%= link_to "Zapisz się", lecture_path(tuesday) %>
-      
-      </td>
-     
-    <% end %>
-    </tr>
-</table>
-<% end %>
-
-<% if @wednesdays.any? %>
-<table>
-     <tr>
-      <h3>Środa</h3>
-      <% @wednesdays.each do |wednesday| %>
-      
-        <td style="border:dotted 1px; padding:5px;">
-    
-      <strong><%= wednesday.place %></strong><br/>
-      <%= wednesday.description %><br/>
-      <%= wednesday.time %><br/>
-      <%= link_to "Zapisz się", lecture_path(wednesday) %>
-      
-      </td>
-      
-    <% end %>
-    </tr>
-</table>
-<% end %>
-
-<% if @thursdays.any? %>
-<table>
-     <tr>
-      <h3>Czwartek</h3>
-      <% @thursdays.each do |thursday| %>
-      
-        <td style="border:dotted 1px; padding:5px;">
-    
-      <strong><%= thursday.place %></strong><br/>
-      <%= thursday.description %><br/>
-      <%= thursday.time %><br/>
-      <%= link_to "Zapisz się", lecture_path(thursday) %>
-      
-      </td>
-     
-    <% end %>
-    </tr>
-</table>
-<% end %>
-
-<% if @fridays.any? %>
-<table>
-     <tr>
-      <h3>Piątek</h3>
-      <% @fridays.each do |friday| %>
-      
-        <td style="border:dotted 1px; padding:5px;">
-    
-      <strong><%= friday.place %></strong><br/>
-      <%= friday.description %><br/>
-      <%= friday.time %><br/>
-      <%= link_to "Zapisz się", lecture_path(friday) %>
-      
-      </td>
-      
-    <% end %>
-    </tr>
-</table>
-<% end %>
-
-<% if @saturdays.any? %>
-<table>
-     <tr>
-      <% if @saturdays.any? %>
-      <p>są soboty</p>
+      <h3>Tutaj dzień tygodnia, jeszcze nie wymyśliłem jak je wyświetlać :) </h3>
       <% end %>
-      <h3>Sobota</h3>
-      <% @saturdays.each do |saturday| %>
-      
-        <td style="border:dotted 1px; padding:5px;">
-    
-      <strong><%= saturday.place %></strong><br/>
-      <%= saturday.description %><br/>
-      <%= saturday.time %><br/>
-      <%= link_to "Zapisz się", lecture_path(saturday) %>
-      
-      </td>
-      
-    <% end %>
-    </tr>
-</table>
-<% end %>
 
-<% if @sundays.any? %>
-<table>
-     <tr>
-      <h3>Niedziela</h3>
+      <% weekday.each do |weekday| %>
       
-      <% @sundays.each do |sunday| %>
-      
-        <td style="border:dotted 1px; padding:5px;">
+      <td style="border:dotted 1px; padding:5px;">
     
-      <strong><%= sunday.place %></strong><br/>
-      <%= sunday.description %><br/>
-      <%= sunday.time %><br/>
-      <%= link_to "Zapisz się", lecture_path(sunday) %>
+      <strong><%= weekday.place %></strong><br/>
+      <%= weekday.description %><br/>
+      <%= weekday.time %><br/>
+      <%= link_to "Zapisz się", lecture_path(weekday) %>
       
       </td>
       
     <% end %>
+    
     </tr>
   </table>
   <% end %>

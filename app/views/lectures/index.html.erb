@@ -1,29 +1,21 @@
 <h1>Wykłady</h1>
 
 
- <!-- manually divide by weekdays - simple, not very good, but working solution for now -->
- <% @weekdays.each do |weekday| %>
-
+<% @weekdays.each do |weekday| %> <!-- display every day of the week separately -->
 <table>
-    <tr>
-      <% if weekday.any? %>     
-      
-      <h3>Tutaj dzień tygodnia, jeszcze nie wymyśliłem jak je wyświetlać :) </h3>
-      <% end %>
-
-      <% weekday.each do |weekday| %>
-      
-      <td style="border:dotted 1px; padding:5px;">
-    
-      <strong><%= weekday.place %></strong><br/>
-      <%= weekday.description %><br/>
-      <%= weekday.time %><br/>
-      <%= link_to "Zapisz się", lecture_path(weekday) %>
-      
-      </td>
-      
-    <% end %>
-    
-    </tr>
-  </table>
+  <tr>
+  <% if weekday.any? %>  <!-- if any activities during that day, display it's name --> 
+    <h3><%= weekday.first.day %></h3> 
   <% end %>
+
+  <% weekday.each do |weekday| %> <!-- display every activity of the day in separate columns -->
+    <td style="border:dotted 1px; padding:5px;">
+    <strong><%= weekday.place %></strong><br/>
+    <%= weekday.description %><br/>
+    <%= weekday.time %><br/>
+    <%= link_to "Zapisz się", lecture_path(weekday) %>
+    </td>
+  <% end %>
+  </tr>
+</table>
+<% end %>

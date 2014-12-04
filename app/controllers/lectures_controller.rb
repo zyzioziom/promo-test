@@ -3,16 +3,20 @@ class LecturesController < ApplicationController
   	# order by earliest to latest lecture time
   	@lectures = Lecture.order(:time)
 
-  	# find and sort lectures by days of the week
-  	@mondays = Lecture.where day: "poniedziałek"
-  	@tuesdays = Lecture.where day: "wtorek"
-  	@wednesdays = Lecture.where day: "środa"
-  	@thursdays = Lecture.where day: "czwartek"
-  	@fridays = Lecture.where day: "piątek"
-  	@saturdays = Lecture.where day: "sobota"
-  	@sundays = Lecture.where day: "niedziela"
+  	# find and group lectures by days of the week
+    # regexes match all variations of weekday names in Polish, 
+    #   only first two letters are needed to distinct days (it's not case sensitive)
+    
+    @mondays = Lecture.where("day LIKE ?", "po%")
+  	@tuesdays = Lecture.where("day LIKE ?", "wt%")
+    # wednesday needs to be refactored into working SQL regex
+  	@wednesdays = Lecture.where("day LIKE ?", "sr%") + Lecture.where("day LIKE ?", "śr%")
+  	@thursdays = Lecture.where("day LIKE ?", "cz%")
+  	@fridays = Lecture.where("day LIKE ?", "pi%")
+  	@saturdays = Lecture.where("day LIKE ?", "so%")
+  	@sundays = Lecture.where("day LIKE ?", "ni%")
 
-  	# create array of weekdays to create simple code in view
+  	# create array of weekdays to help create simple code in view
   	@weekdays = [@mondays, @tuesdays, @wednesdays, @thursdays, @fridays, @saturdays, @sundays]
   end
 

@@ -35,7 +35,7 @@
 			"file": "app/views/layouts/application.html.erb",
 			"settings":
 			{
-				"buffer_size": 971,
+				"buffer_size": 886,
 				"line_ending": "Unix"
 			}
 		},
@@ -43,7 +43,7 @@
 			"file": "app/controllers/welcome_controller.rb",
 			"settings":
 			{
-				"buffer_size": 91,
+				"buffer_size": 74,
 				"line_ending": "Unix"
 			}
 		},
@@ -51,7 +51,7 @@
 			"file": "app/controllers/users_controller.rb",
 			"settings":
 			{
-				"buffer_size": 142,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -84,6 +84,30 @@
 			"settings":
 			{
 				"buffer_size": 1027,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1382,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20141204160509_add_devise_to_users.rb",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/environments/development.rb",
+			"settings":
+			{
+				"buffer_size": 1422,
 				"line_ending": "Unix"
 			}
 		},
@@ -123,7 +147,7 @@
 			"file": "app/views/users/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 539,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -139,7 +163,7 @@
 			"file": "app/views/users/show.html.erb",
 			"settings":
 			{
-				"buffer_size": 121,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -155,7 +179,7 @@
 			"file": "app/views/leaflets/show.html.erb",
 			"settings":
 			{
-				"buffer_size": 373,
+				"buffer_size": 538,
 				"line_ending": "Unix"
 			}
 		},
@@ -179,7 +203,15 @@
 			"file": "config/routes.rb",
 			"settings":
 			{
-				"buffer_size": 1842,
+				"buffer_size": 1822,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/application.rb",
+			"settings":
+			{
+				"buffer_size": 1023,
 				"line_ending": "Unix"
 			}
 		},
@@ -342,7 +374,7 @@
 	"groups":
 	[
 		{
-			"selected": 17,
+			"selected": 12,
 			"sheets":
 			[
 				{
@@ -350,15 +382,15 @@
 					"file": "app/views/layouts/application.html.erb",
 					"settings":
 					{
-						"buffer_size": 971,
+						"buffer_size": 886,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								499,
-								499
+								672,
+								672
 							]
 						],
 						"settings":
@@ -376,15 +408,15 @@
 					"file": "app/controllers/welcome_controller.rb",
 					"settings":
 					{
-						"buffer_size": 91,
+						"buffer_size": 74,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								80,
-								80
+								63,
+								63
 							]
 						],
 						"settings":
@@ -402,15 +434,15 @@
 					"file": "app/controllers/users_controller.rb",
 					"settings":
 					{
-						"buffer_size": 142,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								78,
-								78
+								0,
+								0
 							]
 						],
 						"settings":
@@ -531,6 +563,88 @@
 				},
 				{
 					"buffer": 7,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 1382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1381,
+								1381
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "db/migrate/20141204160509_add_devise_to_users.rb",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "config/environments/development.rb",
+					"settings":
+					{
+						"buffer_size": 1422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1422,
+								1422
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
 					"file": "app/views/posters/index.html.erb",
 					"settings":
 					{
@@ -558,7 +672,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 11,
 					"file": "app/views/others/index.html.erb",
 					"settings":
 					{
@@ -586,7 +700,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 12,
 					"file": "app/views/leaflets/index.html.erb",
 					"settings":
 					{
@@ -614,7 +728,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 13,
 					"file": "app/views/lectures/index.html.erb",
 					"settings":
 					{
@@ -642,19 +756,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 14,
 					"file": "app/views/users/index.html.erb",
 					"settings":
 					{
-						"buffer_size": 539,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								539,
-								539
+								0,
+								0
 							]
 						],
 						"settings":
@@ -668,7 +782,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 15,
 					"file": "app/views/welcome/index.html.erb",
 					"settings":
 					{
@@ -694,19 +808,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 16,
 					"file": "app/views/users/show.html.erb",
 					"settings":
 					{
-						"buffer_size": 121,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								121,
-								121
+								0,
+								0
 							]
 						],
 						"settings":
@@ -720,7 +834,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 17,
 					"file": "app/views/lectures/show.html.erb",
 					"settings":
 					{
@@ -746,19 +860,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 18,
 					"file": "app/views/leaflets/show.html.erb",
 					"settings":
 					{
-						"buffer_size": 373,
+						"buffer_size": 538,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								373,
-								373
+								117,
+								117
 							]
 						],
 						"settings":
@@ -772,7 +886,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 19,
 					"file": "app/views/others/show.html.erb",
 					"settings":
 					{
@@ -798,7 +912,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 20,
 					"file": "app/views/posters/show.html.erb",
 					"settings":
 					{
@@ -824,19 +938,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 21,
 					"file": "config/routes.rb",
 					"settings":
 					{
-						"buffer_size": 1842,
+						"buffer_size": 1822,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								835,
-								835
+								0,
+								0
 							]
 						],
 						"settings":
@@ -852,7 +966,35 @@
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 22,
+					"file": "config/application.rb",
+					"settings":
+					{
+						"buffer_size": 1023,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 23,
 					"file": "db/schema.rb",
 					"settings":
 					{
@@ -863,8 +1005,8 @@
 						"selection":
 						[
 							[
-								1490,
-								1490
+								2403,
+								2606
 							]
 						],
 						"settings":
@@ -874,7 +1016,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 215.0,
+						"translation.y": 1082.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

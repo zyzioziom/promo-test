@@ -1,0 +1,18 @@
+  [1m[36m (321.7ms)[0m  [1mCREATE TABLE "leaflets" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "date" date, "place" text, "description" text, "program" integer, "modifier" float, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (137.2ms)[0m  CREATE TABLE "lectures" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "day" varchar(255), "time" time, "place" text, "description" text, "program" integer, "modifier" float, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (83.6ms)[0m  [1mCREATE TABLE "levels" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "points" float, "name" varchar(255), "description" text, "image" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (83.4ms)[0m  CREATE TABLE "others" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "date" date, "time" time, "place" text, "name" varchar(255), "description" text, "program" integer, "points" float, "image" text, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (91.8ms)[0m  [1mCREATE TABLE "posters" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "date" date, "place" text, "description" text, "program" integer, "modifier" float, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (108.3ms)[0m  CREATE TABLE "programs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "activity" varchar(255), "global_citizen" boolean, "global_talents" boolean, "future_leaders" boolean, "university" boolean, "career_days" boolean, "career_forum" boolean, "youth_to_business" boolean, "global_host" boolean, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (108.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "google_id" integer, "name" varchar(255), "lastname" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (108.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (101.3ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (83.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20141129213529')
+  [1m[36m (92.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20141129213320')[0m
+  [1m[35m (109.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20141129213139')
+  [1m[36m (167.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20141129212836')[0m
+  [1m[35m (109.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20141129213453')
+  [1m[36m (85.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20141129204420')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"

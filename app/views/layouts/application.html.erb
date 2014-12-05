@@ -10,8 +10,15 @@
 	<div style="width:20%; height:100%; background:#ddd; float:left;">
 		<div style="padding:20px;">
 		Profil, ranking itp.
-
-	
+		<hr/>
+		<% if user_signed_in? %>
+		<img style="border-radius:50%;" src="<%= current_user.image %>" />
+		<br/>
+		<h3>Witaj <%= current_user.name %>!</h3>
+		<%= link_to "Wyloguj się", destroy_user_session_path,:method => :delete %>
+		<% else %>
+		<h1><%= link_to "Zaloguj się", user_omniauth_authorize_path(:google_oauth2) %></h1>
+		<% end %>
 	</div>
 	</div>
 	<div style="width:80%; float:right;">
@@ -23,8 +30,7 @@
 				<%= link_to "Wykłady", lectures_path %> | 
 				<%= link_to "Inne", others_path %>
 
-				<p class="notice"><%= notice %></p>
-       			<p class="alert"><%= alert %></p>
+				
 		</div>
 
 <div style="padding:20px;">

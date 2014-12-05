@@ -26469,3 +26469,1185 @@ Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-05 19:54:47 +01
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 19:54:47 +0100
   [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 20:37:17 +0100
+Processing by WelcomeController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered welcome/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 134ms (Views: 132.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-05 20:37:17 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-05 20:37:17 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-05 20:37:17 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-05 20:37:17 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-05 20:37:17 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-05 20:37:17 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-05 20:37:17 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-05 20:37:17 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-05 20:37:17 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-05 20:37:17 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-05 20:37:17 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-05 20:37:17 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-05 20:37:17 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-05 20:37:17 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 20:37:17 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 20:38:57 +0100
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered welcome/index.html.erb within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 14ms
+
+SyntaxError (/home/patryk/public_html/promo-test/app/views/layouts/application.html.erb:43: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/patryk/public_html/promo-test/app/views/layouts/application.html.erb:45: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/layouts/application.html.erb:43: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/layouts/application.html.erb:45: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 20:39:30 +0100
+Processing by WelcomeController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered welcome/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 135ms (Views: 133.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-05 20:39:30 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-05 20:39:30 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-05 20:39:30 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-05 20:39:30 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-05 20:39:30 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-05 20:39:30 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-05 20:39:30 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-05 20:39:30 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-05 20:39:30 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-05 20:39:31 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-05 20:39:31 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-05 20:39:31 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-05 20:39:31 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 20:39:31 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-05 20:39:31 +0100
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-05 20:39:47 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-05 20:39:47 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-05 20:39:47 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-05 20:39:47 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-05 20:39:47 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-05 20:39:47 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 20:39:56 +0100
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 121ms (Views: 119.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-05 20:39:56 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-05 20:39:56 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-05 20:39:56 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-05 20:39:56 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-05 20:39:56 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-05 20:39:56 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-05 20:39:56 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-05 20:39:56 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-05 20:39:56 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-05 20:39:56 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-05 20:39:56 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-05 20:39:56 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-05 20:39:56 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-05 20:39:56 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 20:39:56 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 20:40:53 +0100
+Processing by WelcomeController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered welcome/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 151ms (Views: 149.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-05 20:40:53 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-05 20:40:53 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-05 20:40:53 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-05 20:40:53 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-05 20:40:53 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-05 20:40:53 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-05 20:40:53 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-05 20:40:53 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-05 20:40:53 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-05 20:40:53 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-05 20:40:53 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-05 20:40:53 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-05 20:40:53 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-05 20:40:53 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 20:40:53 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 20:41:50 +0100
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 154ms (Views: 151.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-05 20:41:50 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-05 20:41:51 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-05 20:41:51 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-05 20:41:51 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-05 20:41:51 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-05 20:41:51 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-05 20:41:51 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-05 20:41:51 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-05 20:41:51 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-05 20:41:51 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-05 20:41:51 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-05 20:41:51 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-05 20:41:51 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 20:41:51 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-05 20:41:51 +0100
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-12-05 20:41:54 +0100
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"V1G53wDY4Yh0/ciTqMgXKQp6RpnMADHRZ6vGWHvAo+0="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 17ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 20:41:54 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 134ms (Views: 133.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-05 20:41:54 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-05 20:41:54 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-05 20:41:54 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-05 20:41:54 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-05 20:41:54 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-05 20:41:54 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-05 20:41:54 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-05 20:41:54 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-05 20:41:54 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-05 20:41:54 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-05 20:41:54 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-05 20:41:54 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-05 20:41:54 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-05 20:41:55 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 20:41:55 +0100
+
+
+Started GET "/users/auth/google_oauth2" for 127.0.0.1 at 2014-12-05 20:42:01 +0100
+
+
+Started GET "/users/auth/google_oauth2" for 127.0.0.1 at 2014-12-05 20:42:01 +0100
+
+
+Started GET "/users/auth/google_oauth2/callback?state=1d2a83ecfaef5daa90d10cf4c59c7b631aea105182679ef7&code=4/igWyEuoWxm22XOXcsS0-8vOf6ShjhtmpWOcMjcKalC0.4hi-qNC4UHQQYFZr95uygvXPGPY3lAI" for 127.0.0.1 at 2014-12-05 20:42:05 +0100
+Processing by OmniauthCallbacksController#google_oauth2 as HTML
+  Parameters: {"state"=>"1d2a83ecfaef5daa90d10cf4c59c7b631aea105182679ef7", "code"=>"4/igWyEuoWxm22XOXcsS0-8vOf6ShjhtmpWOcMjcKalC0.4hi-qNC4UHQQYFZr95uygvXPGPY3lAI"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."provider" = 'google_oauth2' AND "users"."uid" = '112907200008711182557'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 2[0m  [["current_sign_in_at", "2014-12-05 19:42:17.627673"], ["sign_in_count", 2], ["updated_at", "2014-12-05 19:42:17.628712"]]
+  [1m[35m (88.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 95ms (ActiveRecord: 88.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 20:42:17 +0100
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 151ms (Views: 149.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-05 20:42:18 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-05 20:42:18 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-05 20:42:18 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-05 20:42:18 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-05 20:42:18 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-05 20:42:18 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-05 20:42:18 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-05 20:42:18 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-05 20:42:18 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-05 20:42:18 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-05 20:42:18 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-05 20:42:18 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-05 20:42:18 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-05 20:42:18 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 20:42:18 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 20:43:08 +0100
+Processing by WelcomeController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 151ms (Views: 149.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:08 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:08 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:08 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:08 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:08 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:08 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:08 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:08 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:09 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:09 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:09 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:09 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:09 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:09 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:09 +0100
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-12-05 20:43:10 +0100
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"GhDSGodII9roKSFE+DZC+e3t/sOOxdGnHBtnLZuKZ2A="}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (1.3ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 20:43:10 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 135ms (Views: 133.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:10 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:10 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:10 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:10 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:10 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:10 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:10 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:10 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:10 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:10 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:10 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:10 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:10 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:10 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:10 +0100
+
+
+Started GET "/users/auth/google_oauth2" for 127.0.0.1 at 2014-12-05 20:43:14 +0100
+
+
+Started GET "/users/auth/google_oauth2" for 127.0.0.1 at 2014-12-05 20:43:14 +0100
+
+
+Started GET "/users/auth/google_oauth2/callback?state=369100b1616d2caf18c492398f63862c44d93ae9cc6e3295&code=4/pMEJT4YUrKO0ZMeh8FVFHMBTI68Kj6yMlNAZY2ngUD0.ElvHbBXGyuwUYFZr95uygvUpSfg3lAI" for 127.0.0.1 at 2014-12-05 20:43:16 +0100
+Processing by OmniauthCallbacksController#google_oauth2 as HTML
+  Parameters: {"state"=>"369100b1616d2caf18c492398f63862c44d93ae9cc6e3295", "code"=>"4/pMEJT4YUrKO0ZMeh8FVFHMBTI68Kj6yMlNAZY2ngUD0.ElvHbBXGyuwUYFZr95uygvUpSfg3lAI"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."provider" = 'google_oauth2' AND "users"."uid" = '107148525714432249871'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'avat.delphi@gmail.com'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'avat.delphi@gmail.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "image", "lastname", "name", "provider", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", "2014-12-05 19:43:17.820079"], ["email", "avat.delphi@gmail.com"], ["encrypted_password", "$2a$10$6jmygvP69bK6XSZA0sFgfe7GMnaYLiMzgwYpVGiZyHb4Q4a0A7HQ."], ["image", "https://lh3.googleusercontent.com/-iWoMuMIs8vE/AAAAAAAAAAI/AAAAAAAAKrs/DXwGqBOOi0E/photo.jpg?sz=50"], ["lastname", "Kalinowski"], ["name", "Patryk"], ["provider", "google_oauth2"], ["uid", "107148525714432249871"], ["updated_at", "2014-12-05 19:43:17.820079"]]
+  [1m[36m (122.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Binary data inserted for `string` type on column `current_sign_in_ip`
+Binary data inserted for `string` type on column `last_sign_in_ip`
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_at" = ?, "last_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 3[0m  [["current_sign_in_at", "2014-12-05 19:43:17.944593"], ["current_sign_in_ip", "127.0.0.1"], ["last_sign_in_at", "2014-12-05 19:43:17.944593"], ["last_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", "2014-12-05 19:43:17.945354"]]
+  [1m[35m (97.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 361ms (ActiveRecord: 221.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 20:43:18 +0100
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 138ms (Views: 136.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:18 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:18 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:18 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:18 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:18 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:18 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:18 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:18 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:18 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:18 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:18 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:18 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:18 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:18 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:18 +0100
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-12-05 20:43:27 +0100
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"qqVcHsndBwT7BukZNUaJao9bxiDoCR/sIAXzlk+PJRk="}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 20:43:27 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 138ms (Views: 137.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:28 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:28 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:28 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:28 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:28 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:28 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:28 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:28 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:28 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:28 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:28 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:28 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:28 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:28 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:28 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 20:43:53 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 151ms (Views: 149.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:53 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:53 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:53 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:53 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:53 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:53 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-05 20:43:53 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:53 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:53 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:53 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:53 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:53 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:53 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:53 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 20:43:53 +0100
+
+
+Started GET "/users/auth/google_oauth2" for 127.0.0.1 at 2014-12-05 20:49:51 +0100
+
+
+Started GET "/users/auth/google_oauth2" for 127.0.0.1 at 2014-12-05 20:49:51 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 20:50:23 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 152ms (Views: 150.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:23 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:23 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:23 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:23 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:23 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:23 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:23 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:23 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:23 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:23 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:23 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:23 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:23 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:23 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:23 +0100
+
+
+Started GET "/users/auth/google_oauth2" for 127.0.0.1 at 2014-12-05 20:50:24 +0100
+
+
+Started GET "/users/auth/google_oauth2" for 127.0.0.1 at 2014-12-05 20:50:24 +0100
+
+
+Started GET "/users/auth/google_oauth2/callback?state=d3a8ce2bac83b759d4c16e329330a7abd6c8507ab0e10f1f&code=4/Nf_Hze2kEpYz6SkauiXNrdyQwHuWt9S2FmwqnvtKqLI.QkXhS6GBy20QYFZr95uygvXJYgU4lAI" for 127.0.0.1 at 2014-12-05 20:50:26 +0100
+Processing by OmniauthCallbacksController#google_oauth2 as HTML
+  Parameters: {"state"=>"d3a8ce2bac83b759d4c16e329330a7abd6c8507ab0e10f1f", "code"=>"4/Nf_Hze2kEpYz6SkauiXNrdyQwHuWt9S2FmwqnvtKqLI.QkXhS6GBy20QYFZr95uygvXJYgU4lAI"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."provider" = 'google_oauth2' AND "users"."uid" = '112907200008711182557'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 2[0m  [["current_sign_in_at", "2014-12-05 19:50:26.796317"], ["last_sign_in_at", "2014-12-05 19:42:17.627673"], ["sign_in_count", 3], ["updated_at", "2014-12-05 19:50:26.797059"]]
+  [1m[35m (99.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 105ms (ActiveRecord: 100.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 20:50:26 +0100
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 147ms (Views: 145.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:27 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:27 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:27 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:27 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:27 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:27 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:27 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:27 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:27 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:27 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:27 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:27 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:27 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:27 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:27 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 20:50:50 +0100
+Processing by WelcomeController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 142ms (Views: 140.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:50 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:50 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:50 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:50 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:50 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:50 +0100
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:50 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:50 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:50 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:50 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:50 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:50 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:50 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:50 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:50 +0100
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-12-05 20:50:58 +0100
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Q0AfhfNPK/MkSE5wVEWdFDSnzJBGPLC6q26+za2+Vdo="}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 20:50:58 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 131ms (Views: 129.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:58 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:58 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:58 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:58 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:58 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:58 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-05 20:50:58 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:58 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:58 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:58 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:58 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:58 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:58 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:58 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 20:50:58 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 20:51:11 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 145ms (Views: 144.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-05 20:51:11 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-05 20:51:12 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-05 20:51:12 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-05 20:51:12 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-05 20:51:12 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-05 20:51:12 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-05 20:51:12 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-05 20:51:12 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-05 20:51:12 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-05 20:51:12 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-05 20:51:12 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-05 20:51:12 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-05 20:51:12 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-05 20:51:12 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 20:51:12 +0100
+
+
+Started GET "/users/auth/google_oauth2" for 127.0.0.1 at 2014-12-05 20:51:15 +0100
+
+
+Started GET "/users/auth/google_oauth2" for 127.0.0.1 at 2014-12-05 20:51:15 +0100
+
+
+Started GET "/users/auth/google_oauth2/callback?state=9ae8ce6336dcaf67c8ff17b7bfd9bd1ef18c79a5dfb50ce8&code=4/4fLdORp8fGsRh5hpi57M6d_lvZwqgTZte55NjTr4JLo.EmW9WHcN3F4VYFZr95uygvX19gY4lAI" for 127.0.0.1 at 2014-12-05 20:51:17 +0100
+Processing by OmniauthCallbacksController#google_oauth2 as HTML
+  Parameters: {"state"=>"9ae8ce6336dcaf67c8ff17b7bfd9bd1ef18c79a5dfb50ce8", "code"=>"4/4fLdORp8fGsRh5hpi57M6d_lvZwqgTZte55NjTr4JLo.EmW9WHcN3F4VYFZr95uygvX19gY4lAI"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."provider" = 'google_oauth2' AND "users"."uid" = '112907200008711182557'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 2  [["current_sign_in_at", "2014-12-05 19:51:29.094269"], ["last_sign_in_at", "2014-12-05 19:50:26.796317"], ["sign_in_count", 4], ["updated_at", "2014-12-05 19:51:29.095366"]]
+  [1m[36m (103.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 111ms (ActiveRecord: 104.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 20:51:29 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 139ms (Views: 138.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-05 20:51:29 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-05 20:51:29 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-05 20:51:29 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-05 20:51:29 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-05 20:51:29 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-05 20:51:29 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-05 20:51:29 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-05 20:51:29 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-05 20:51:29 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-05 20:51:29 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-05 20:51:29 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-05 20:51:29 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-05 20:51:29 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-05 20:51:29 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 20:51:29 +0100
+
+
+Started GET "/others" for 127.0.0.1 at 2014-12-05 20:51:36 +0100
+Processing by OthersController#index as HTML
+  [1m[36mOther Load (0.4ms)[0m  [1mSELECT "others".* FROM "others"   ORDER BY "others"."date" ASC[0m
+  Rendered others/index.html.erb within layouts/application (15.8ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 153ms (Views: 148.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/others/1" for 127.0.0.1 at 2014-12-05 20:51:38 +0100
+Processing by OthersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mOther Load (0.4ms)[0m  [1mSELECT  "others".* FROM "others"  WHERE "others"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered others/show.html.erb within layouts/application (1.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 153ms (Views: 150.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/others/4" for 127.0.0.1 at 2014-12-05 20:51:41 +0100
+Processing by OthersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mOther Load (0.2ms)[0m  [1mSELECT  "others".* FROM "others"  WHERE "others"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered others/show.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 132ms (Views: 130.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posters" for 127.0.0.1 at 2014-12-05 20:51:47 +0100
+Processing by PostersController#index as HTML
+  [1m[36mPoster Load (0.4ms)[0m  [1mSELECT "posters".* FROM "posters"   ORDER BY "posters"."date" ASC[0m
+  Rendered posters/index.html.erb within layouts/application (10.8ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 152ms (Views: 148.2ms | ActiveRecord: 1.3ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-12-05 20:52:12 +0100
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"pySfi9NlJhTMSq2AFw5UEMQU8N2ss47JArz7FSerUmo="}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 20:52:12 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 164ms (Views: 163.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-05 20:52:12 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-05 20:52:12 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-05 20:52:12 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-05 20:52:12 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-05 20:52:12 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-05 20:52:12 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-05 20:52:12 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-05 20:52:12 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-05 20:52:12 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-05 20:52:12 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 20:52:12 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-05 20:52:13 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-05 20:52:13 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-05 20:52:13 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-05 20:52:13 +0100

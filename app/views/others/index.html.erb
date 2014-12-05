@@ -2,7 +2,7 @@
 
 
 <!-- group all sorted others by date -->
-<%= @others.group_by(&:date).each do |date, others| %>
+<% @others.group_by(&:date).each do |date, others| %>
   <p><%= l(date, :format => '%A, %d %b %Y') %></p> <!-- localized date formatting: Weekday, day month year -->
   
 

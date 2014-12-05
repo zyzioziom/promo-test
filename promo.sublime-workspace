@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"leaf",
+				"leaflets"
+			],
+			[
 				"wednesdays",
 				"wednesdays2"
 			],
@@ -32,10 +36,74 @@
 	"buffers":
 	[
 		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1420,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/environments/development.rb",
+			"settings":
+			{
+				"buffer_size": 1503,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/welcome/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 443,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/others/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 350,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/lectures/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 323,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/leaflets/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 526,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/posters/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 355,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/leaflets/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 628,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "app/views/layouts/application.html.erb",
 			"settings":
 			{
-				"buffer_size": 971,
+				"buffer_size": 1427,
 				"line_ending": "Unix"
 			}
 		},
@@ -43,39 +111,39 @@
 			"file": "app/controllers/welcome_controller.rb",
 			"settings":
 			{
-				"buffer_size": 91,
+				"buffer_size": 74,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/users_controller.rb",
+			"file": "config/routes.rb",
 			"settings":
 			{
-				"buffer_size": 142,
+				"buffer_size": 1910,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/others_controller.rb",
+			"file": "app/controllers/omniauth_callbacks_controller.rb",
 			"settings":
 			{
-				"buffer_size": 198,
+				"buffer_size": 489,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/posters_controller.rb",
+			"file": "config/initializers/devise.rb",
 			"settings":
 			{
-				"buffer_size": 203,
+				"buffer_size": 12975,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/leaflets_controller.rb",
+			"file": "app/models/user.rb",
 			"settings":
 			{
-				"buffer_size": 210,
+				"buffer_size": 986,
 				"line_ending": "Unix"
 			}
 		},
@@ -88,98 +156,10 @@
 			}
 		},
 		{
-			"file": "app/views/posters/index.html.erb",
+			"file": "app/controllers/leaflets_controller.rb",
 			"settings":
 			{
-				"buffer_size": 538,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/others/index.html.erb",
-			"settings":
-			{
-				"buffer_size": 526,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/leaflets/index.html.erb",
-			"settings":
-			{
-				"buffer_size": 627,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/lectures/index.html.erb",
-			"settings":
-			{
-				"buffer_size": 620,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/users/index.html.erb",
-			"settings":
-			{
-				"buffer_size": 539,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/welcome/index.html.erb",
-			"settings":
-			{
-				"buffer_size": 83,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/users/show.html.erb",
-			"settings":
-			{
-				"buffer_size": 121,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/lectures/show.html.erb",
-			"settings":
-			{
-				"buffer_size": 331,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/leaflets/show.html.erb",
-			"settings":
-			{
-				"buffer_size": 373,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/others/show.html.erb",
-			"settings":
-			{
-				"buffer_size": 361,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/posters/show.html.erb",
-			"settings":
-			{
-				"buffer_size": 368,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 1842,
+				"buffer_size": 209,
 				"line_ending": "Unix"
 			}
 		},
@@ -187,7 +167,7 @@
 			"file": "db/schema.rb",
 			"settings":
 			{
-				"buffer_size": 2612,
+				"buffer_size": 3264,
 				"line_ending": "Unix"
 			}
 		}
@@ -220,34 +200,75 @@
 	},
 	"file_history":
 	[
+		"/home/patryk/public_html/promo-test/db/migrate/20141205183526_devise_create_users.rb",
+		"/home/patryk/public_html/AIESEC-University/leads/css/bootstrap.css",
+		"/home/patryk/public_html/promo-test/config/routes.rb",
+		"/home/patryk/public_html/promo-test/Gemfile",
+		"/home/patryk/public_html/promo-test/db/migrate/20141205181517_add_devise_to_users.rb",
+		"/home/patryk/public_html/promo-test/app/views/layouts/application.html.erb",
+		"/home/patryk/public_html/promo-test/config/initializers/devise.rb",
+		"/home/patryk/public_html/clean-rails/Gemfile",
+		"/home/patryk/public_html/clean-rails/Gemfile.lock",
+		"/home/patryk/public_html/devise-test/db/schema.rb",
+		"/home/patryk/public_html/devise-test/config/environments/development.rb",
+		"/home/patryk/public_html/devise-test/config/initializers/devise.rb",
+		"/home/patryk/public_html/devise-test/app/controllers/omniauth_callbacks_controller.rb",
+		"/home/patryk/public_html/devise-test/app/models/user.rb",
+		"/home/patryk/public_html/promo-test/db/schema.rb",
+		"/home/patryk/public_html/devise-test/app/controllers/application_controller.rb",
+		"/home/patryk/public_html/devise-test/app/controllers/welcome_controller.rb",
+		"/home/patryk/public_html/devise-test/db/migrate/20141205005910_add_image_to_users.rb",
+		"/home/patryk/public_html/devise-test/app/views/layouts/application.html.erb",
+		"/home/patryk/public_html/devise-test/db/migrate/20141204232500_add_name_to_users.rb",
+		"/home/patryk/public_html/devise-test/app/controllers/omniauth_callback_controller.rb",
+		"/home/patryk/public_html/promo-test/db/migrate/20141204163835_drop_users_table.rb",
+		"/home/patryk/public_html/promo-test/db/migrate/20141204163707_devise_create_users.rb",
+		"/home/patryk/public_html/promo-test/app/controllers/welcome_controller.rb",
+		"/home/patryk/public_html/promo-test/app/controllers/others_controller.rb",
+		"/home/patryk/public_html/promo-test/app/controllers/posters_controller.rb",
+		"/home/patryk/public_html/promo-test/app/controllers/leaflets_controller.rb",
+		"/home/patryk/public_html/promo-test/app/controllers/lectures_controller.rb",
+		"/home/patryk/public_html/promo-test/app/models/user.rb",
+		"/home/patryk/public_html/promo-test/config/environments/development.rb",
+		"/home/patryk/public_html/promo-test/app/views/posters/index.html.erb",
+		"/home/patryk/public_html/promo-test/app/views/others/index.html.erb",
+		"/home/patryk/public_html/promo-test/app/views/leaflets/index.html.erb",
+		"/home/patryk/public_html/promo-test/app/views/lectures/index.html.erb",
+		"/home/patryk/public_html/promo-test/app/views/users/index.html.erb",
+		"/home/patryk/public_html/promo-test/app/views/welcome/index.html.erb",
+		"/home/patryk/public_html/promo-test/app/views/users/show.html.erb",
+		"/home/patryk/public_html/promo-test/app/views/lectures/show.html.erb",
+		"/home/patryk/public_html/promo-test/app/views/leaflets/show.html.erb",
+		"/home/patryk/public_html/AIESEC-University/.htaccess",
+		"/home/patryk/public_html/promo-test/.htaccess",
+		"/home/patryk/public_html/.htaccess",
+		"/home/patryk/public_html/devise-test/Gemfile",
+		"/home/patryk/public_html/promo-test/promo.sublime-workspace",
+		"/home/patryk/public_html/devise-test/config/routes.rb",
+		"/home/patryk/public_html/promo-test/app/views/others/show.html.erb",
+		"/home/patryk/public_html/promo-test/app/views/posters/show.html.erb",
+		"/home/patryk/public_html/AIESEC-University/leads/index.html",
+		"/home/patryk/public_html/promo-test/app/controllers/omniauth_callbacks_controller.rb",
 		"/home/patryk/public_html/promo-test/config/application.rb",
+		"/home/patryk/public_html/promo-test/app/controllers/users_controller.rb",
+		"/home/patryk/public_html/promo-test/db/migrate/20141204160509_add_devise_to_users.rb",
 		"/home/patryk/public_html/promo-test/config/locales/pl.yml",
 		"/home/patryk/.cache/.fr-tmGPHZ/dotpay_kod_skrypty/c1_sms_curl/sprawdz.php",
-		"/home/patryk/public_html/AIESEC-University/leads/index.html",
 		"/home/patryk/.cache/.fr-iOp8cz/dotpay_kod_skrypty/c1_sms_curl/index.html",
 		"/home/patryk/.cache/.fr-dVUtLd/dotpay_kod_skrypty/c1_sms_curl/main.php",
 		"/home/patryk/Documents/UEK/w krakowie mozemy kupic bilety ulgowe i normalne.",
-		"/home/patryk/public_html/promo-test/app/models/user.rb",
 		"/home/patryk/public_html/promo-test/app/models/leaflet.rb",
-		"/home/patryk/public_html/promo-test/Gemfile",
 		"/home/patryk/public_html/promo-test/README.rdoc",
 		"/home/patryk/public_html/promo-test/config/locales/en.yml",
 		"/home/patryk/public_html/promo-test/config/environment.rb",
 		"/home/patryk/public_html/promo-test/config/boot.rb",
-		"/home/patryk/public_html/promo-test/config/environments/development.rb",
 		"/home/patryk/public_html/promo-test/.gitignore",
 		"/home/patryk/public_html/promo-test/db/development.sqlite3",
-		"/home/patryk/public_html/promo-test/db/schema.rb",
 		"/home/patryk/public_html/promo-test/db/migrate/20141129204420_create_leaflets.rb",
-		"/home/patryk/public_html/promo-test/app/views/welcome/index.html.erb",
 		"/home/patryk/public_html/promo-test/app/controllers/user_controller.rb",
-		"/home/patryk/public_html/promo-test/app/controllers/users_controller.rb",
 		"/home/patryk/public_html/promo-test/app/views/user/create.html.erb",
 		"/home/patryk/public_html/promo-test/app/views/user/index.html.erb",
 		"/home/patryk/public_html/promo-test/app/views/user/show.html.erb",
-		"/home/patryk/public_html/promo-test/app/views/layouts/application.html.erb",
-		"/home/patryk/public_html/promo-test/config/routes.rb",
-		"/home/patryk/public_html/promo-test/app/controllers/welcome_controller.rb",
 		"/home/patryk/public_html/promoplatform/app/controllers/welcome_controller.rb",
 		"/home/patryk/public_html/promoplatform/app/controllers/users_controller.rb",
 		"/home/patryk/public_html/promoplatform/test/models/user_test.rb",
@@ -290,6 +311,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"omniauth",
 			"ś",
 			"monday",
 			"</a>",
@@ -342,28 +364,28 @@
 	"groups":
 	[
 		{
-			"selected": 17,
+			"selected": 13,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/layouts/application.html.erb",
+					"file": "Gemfile",
 					"settings":
 					{
-						"buffer_size": 971,
+						"buffer_size": 1420,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								499,
-								499
+								1420,
+								1420
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -373,148 +395,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/controllers/welcome_controller.rb",
+					"file": "config/environments/development.rb",
 					"settings":
 					{
-						"buffer_size": 91,
+						"buffer_size": 1503,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								80,
-								80
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/controllers/users_controller.rb",
-					"settings":
-					{
-						"buffer_size": 142,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								78,
-								78
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/controllers/others_controller.rb",
-					"settings":
-					{
-						"buffer_size": 198,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								193,
-								193
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/controllers/posters_controller.rb",
-					"settings":
-					{
-						"buffer_size": 203,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								153,
-								153
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/controllers/leaflets_controller.rb",
-					"settings":
-					{
-						"buffer_size": 210,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								140,
-								140
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/controllers/lectures_controller.rb",
-					"settings":
-					{
-						"buffer_size": 1027,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								597,
-								597
+								1498,
+								1498
 							]
 						],
 						"settings":
@@ -530,19 +422,149 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "app/views/posters/index.html.erb",
+					"buffer": 2,
+					"file": "app/views/welcome/index.html.erb",
 					"settings":
 					{
-						"buffer_size": 538,
+						"buffer_size": 443,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								451,
-								451
+								226,
+								226
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/others/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 350,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								60
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/lectures/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								52
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/leaflets/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/posters/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/views/leaflets/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								628,
+								628
 							]
 						],
 						"settings":
@@ -559,25 +581,23 @@
 				},
 				{
 					"buffer": 8,
-					"file": "app/views/others/index.html.erb",
+					"file": "app/views/layouts/application.html.erb",
 					"settings":
 					{
-						"buffer_size": 526,
+						"buffer_size": 1427,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								266,
-								266
+								496,
+								496
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -587,51 +607,49 @@
 				},
 				{
 					"buffer": 9,
-					"file": "app/views/leaflets/index.html.erb",
+					"file": "app/controllers/welcome_controller.rb",
 					"settings":
 					{
-						"buffer_size": 627,
+						"buffer_size": 74,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								627,
-								627
+								63,
+								63
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 51.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 10,
-					"file": "app/views/lectures/index.html.erb",
+					"file": "config/routes.rb",
 					"settings":
 					{
-						"buffer_size": 620,
+						"buffer_size": 1910,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								436,
-								436
+								73,
+								73
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -643,23 +661,23 @@
 				},
 				{
 					"buffer": 11,
-					"file": "app/views/users/index.html.erb",
+					"file": "app/controllers/omniauth_callbacks_controller.rb",
 					"settings":
 					{
-						"buffer_size": 539,
+						"buffer_size": 489,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								539,
-								539
+								489,
+								489
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -669,49 +687,51 @@
 				},
 				{
 					"buffer": 12,
-					"file": "app/views/welcome/index.html.erb",
+					"file": "config/initializers/devise.rb",
 					"settings":
 					{
-						"buffer_size": 83,
+						"buffer_size": 12975,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								83,
-								83
+								12920,
+								12920
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 4.0,
+						"translation.y": 3792.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 13,
-					"file": "app/views/users/show.html.erb",
+					"file": "app/models/user.rb",
 					"settings":
 					{
-						"buffer_size": 121,
+						"buffer_size": 986,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								121,
-								121
+								754,
+								754
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -721,23 +741,25 @@
 				},
 				{
 					"buffer": 14,
-					"file": "app/views/lectures/show.html.erb",
+					"file": "app/controllers/lectures_controller.rb",
 					"settings":
 					{
-						"buffer_size": 331,
+						"buffer_size": 1027,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								240,
-								240
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -747,23 +769,23 @@
 				},
 				{
 					"buffer": 15,
-					"file": "app/views/leaflets/show.html.erb",
+					"file": "app/controllers/leaflets_controller.rb",
 					"settings":
 					{
-						"buffer_size": 373,
+						"buffer_size": 209,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								373,
-								373
+								138,
+								138
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -773,98 +795,18 @@
 				},
 				{
 					"buffer": 16,
-					"file": "app/views/others/show.html.erb",
-					"settings":
-					{
-						"buffer_size": 361,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								358,
-								358
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 17,
-					"file": "app/views/posters/show.html.erb",
-					"settings":
-					{
-						"buffer_size": 368,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								368,
-								368
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"file": "config/routes.rb",
-					"settings":
-					{
-						"buffer_size": 1842,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								835,
-								835
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 19,
 					"file": "db/schema.rb",
 					"settings":
 					{
-						"buffer_size": 2612,
+						"buffer_size": 3264,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1490,
-								1490
+								3050,
+								3050
 							]
 						],
 						"settings":
@@ -874,7 +816,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 215.0,
+						"translation.y": 1173.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -938,6 +880,6 @@
 	"show_open_files": true,
 	"show_tabs": false,
 	"side_bar_visible": true,
-	"side_bar_width": 193.0,
+	"side_bar_width": 266.0,
 	"status_bar_visible": true
 }

@@ -2,7 +2,7 @@
 
 
 <!-- group all sorted posters by date -->
-<%= @posters.group_by(&:date).each do |date, posters| %>
+<% @posters.group_by(&:date).each do |date, posters| %>
   <p><%= l(date, :format => '%A, %d %b %Y') %></p> <!-- localized date formatting: Weekday, day month year -->
   
 

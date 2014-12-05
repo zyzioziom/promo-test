@@ -30,6 +30,7 @@ Rails.application.routes.draw do
   resources :posters
   resources :lectures
   resources :others
+  resources :users
   
   # Example resource route with options:
   #   resources :products do

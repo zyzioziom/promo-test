@@ -25341,3 +25341,283 @@ Processing by UsersController#show as HTML
   [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
   Rendered users/show.html.erb within layouts/application (0.8ms)
 Completed 200 OK in 159ms (Views: 157.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 19:24:10 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 245ms (Views: 227.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-05 19:24:10 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-05 19:24:10 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-05 19:24:10 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-05 19:24:10 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-12-05 19:24:10 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-05 19:24:10 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-05 19:24:10 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-05 19:24:10 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-05 19:24:10 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-05 19:24:10 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-05 19:24:10 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-05 19:24:10 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-05 19:24:10 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-05 19:24:10 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-12-05 19:24:10 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-05 19:24:10 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 19:24:10 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2014-12-05 19:24:11 +0100
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 148ms (Views: 145.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 19:24:12 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 148ms (Views: 147.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-12-05 19:24:13 +0100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 141ms (Views: 140.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/leaflets" for 127.0.0.1 at 2014-12-05 19:24:15 +0100
+Processing by LeafletsController#index as HTML
+  [1m[35mLeaflet Load (0.4ms)[0m  SELECT "leaflets".* FROM "leaflets"   ORDER BY "leaflets"."date" ASC
+  Rendered leaflets/index.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 172ms (Views: 168.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-12-05 19:24:17 +0100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 140ms (Views: 139.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 19:24:20 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 141ms (Views: 139.9ms | ActiveRecord: 0.0ms)
+  [1m[36mUser Load (2.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mSQL (97.4ms)[0m  DELETE FROM "users"
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 19:29:42 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 16ms
+
+NameError (uninitialized constant WelcomeController::User):
+  app/controllers/welcome_controller.rb:3:in `index'
+
+
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (70.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 19:30:09 +0100
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NameError (uninitialized constant WelcomeController::User):
+  app/controllers/welcome_controller.rb:3:in `index'
+
+
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 19:30:20 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 270ms
+
+ActionView::Template::Error (undefined local variable or method `leaflets_path' for #<#<Class:0xc03292c>:0xc032224>):
+    18: 		<div style="width:100%; background:lightblue; padding:10px;">
+    19: 			<p><%= link_to "Strona główna", "/" %> | 
+    20: 				 
+    21: 				<%= link_to "Ulotki", leaflets_path %> | 
+    22: 				<%= link_to "Plakaty", posters_path %> | 
+    23: 				<%= link_to "Wykłady", lectures_path %> | 
+    24: 				<%= link_to "Inne", others_path %>
+  app/views/layouts/application.html.erb:21:in `_app_views_layouts_application_html_erb__519059343_100760100'
+
+
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 19:30:30 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 168ms
+
+ActionView::Template::Error (undefined local variable or method `leaflets_path' for #<#<Class:0xc03292c>:0xb75852c>):
+    18: 		<div style="width:100%; background:lightblue; padding:10px;">
+    19: 			<p><%= link_to "Strona główna", "/" %> | 
+    20: 				 
+    21: 				<%= link_to "Ulotki", leaflets_path %> | 
+    22: 				<%= link_to "Plakaty", posters_path %> | 
+    23: 				<%= link_to "Wykłady", lectures_path %> | 
+    24: 				<%= link_to "Inne", others_path %>
+  app/views/layouts/application.html.erb:21:in `_app_views_layouts_application_html_erb__519059343_100760100'
+
+
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/patryk/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 19:30:53 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 166ms (Views: 164.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leaflets.css?body=1" for 127.0.0.1 at 2014-12-05 19:30:54 +0100
+
+
+Started GET "/assets/others.css?body=1" for 127.0.0.1 at 2014-12-05 19:30:54 +0100
+
+
+Started GET "/assets/posters.css?body=1" for 127.0.0.1 at 2014-12-05 19:30:54 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-05 19:30:54 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-05 19:30:54 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-05 19:30:54 +0100
+
+
+Started GET "/assets/lectures.css?body=1" for 127.0.0.1 at 2014-12-05 19:30:54 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-05 19:30:54 +0100
+
+
+Started GET "/assets/leaflets.js?body=1" for 127.0.0.1 at 2014-12-05 19:30:54 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-05 19:30:54 +0100
+
+
+Started GET "/assets/posters.js?body=1" for 127.0.0.1 at 2014-12-05 19:30:54 +0100
+
+
+Started GET "/assets/lectures.js?body=1" for 127.0.0.1 at 2014-12-05 19:30:54 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-05 19:30:54 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-05 19:30:54 +0100
+
+
+Started GET "/assets/others.js?body=1" for 127.0.0.1 at 2014-12-05 19:30:54 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-05 19:30:55 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 137ms (Views: 136.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/leaflets" for 127.0.0.1 at 2014-12-05 19:30:56 +0100
+Processing by LeafletsController#index as HTML
+  [1m[35mLeaflet Load (0.7ms)[0m  SELECT "leaflets".* FROM "leaflets"   ORDER BY "leaflets"."date" ASC
+  Rendered leaflets/index.html.erb within layouts/application (49.7ms)
+Completed 200 OK in 180ms (Views: 176.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/posters" for 127.0.0.1 at 2014-12-05 19:30:57 +0100
+Processing by PostersController#index as HTML
+  [1m[36mPoster Load (0.4ms)[0m  [1mSELECT "posters".* FROM "posters"   ORDER BY "posters"."date" ASC[0m
+  Rendered posters/index.html.erb within layouts/application (23.5ms)
+Completed 200 OK in 153ms (Views: 146.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2014-12-05 19:30:58 +0100
+Processing by LecturesController#index as HTML
+  [1m[35mLecture Load (0.4ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE (day LIKE 'sr%')
+  [1m[36mLecture Load (0.3ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE (day LIKE 'śr%')[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE (day LIKE 'po%')
+  [1m[36mLecture Load (0.3ms)[0m  [1mSELECT  "lectures".* FROM "lectures"  WHERE (day LIKE 'po%')  ORDER BY "lectures"."id" ASC LIMIT 1[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE (day LIKE 'po%')
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE (day LIKE 'wt%')[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT  "lectures".* FROM "lectures"  WHERE (day LIKE 'wt%')  ORDER BY "lectures"."id" ASC LIMIT 1
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"  WHERE (day LIKE 'wt%')[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "lectures"  WHERE (day LIKE 'cz%')
+  [1m[36mLecture Load (0.4ms)[0m  [1mSELECT  "lectures".* FROM "lectures"  WHERE (day LIKE 'cz%')  ORDER BY "lectures"."id" ASC LIMIT 1[0m
+  [1m[35mLecture Load (0.3ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE (day LIKE 'cz%')
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE (day LIKE 'pi%')[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE (day LIKE 'pi%')
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE (day LIKE 'so%')[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE (day LIKE 'so%')
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "lectures"  WHERE (day LIKE 'ni%')[0m
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"  WHERE (day LIKE 'ni%')
+  Rendered lectures/index.html.erb within layouts/application (26.1ms)
+Completed 200 OK in 162ms (Views: 145.9ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/others" for 127.0.0.1 at 2014-12-05 19:30:59 +0100
+Processing by OthersController#index as HTML
+  [1m[36mOther Load (0.4ms)[0m  [1mSELECT "others".* FROM "others"   ORDER BY "others"."date" ASC[0m
+  Rendered others/index.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 157ms (Views: 150.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/others/3" for 127.0.0.1 at 2014-12-05 19:31:00 +0100
+Processing by OthersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mOther Load (0.5ms)[0m  SELECT  "others".* FROM "others"  WHERE "others"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered others/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 128ms (Views: 125.2ms | ActiveRecord: 0.5ms)

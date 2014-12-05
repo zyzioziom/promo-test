@@ -40,3 +40,5 @@ gem 'spring',        group: :development
 
 # Devise authentication
 gem 'devise'
+gem 'omniauth'
+gem 'omniauth-google-oauth2' 

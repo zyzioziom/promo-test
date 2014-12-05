@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141205183526) do
+ActiveRecord::Schema.define(version: 20141205184639) do
 
   create_table "leaflets", force: true do |t|
     t.date     "date"
@@ -96,6 +96,8 @@ ActiveRecord::Schema.define(version: 20141205183526) do
     t.string   "name"
     t.string   "lastname"
     t.string   "image"
+    t.string   "provider"
+    t.string   "uid"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

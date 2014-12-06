@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141205184639) do
+ActiveRecord::Schema.define(version: 20141205234314) do
 
   create_table "leaflets", force: true do |t|
     t.date     "date"
@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 20141205184639) do
 
   create_table "lectures", force: true do |t|
     t.string   "day"
-    t.time     "time"
+    t.time     "hour",        limit: 255
     t.text     "place"
     t.text     "description"
     t.integer  "program"

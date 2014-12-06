@@ -7,12 +7,14 @@
   <% if weekday.any? %>  <!-- if any activities during that day, display it's name --> 
     <h3><%= weekday.first.day %></h3> 
   <% end %>
-
+ 
   <% weekday.each do |weekday| %> <!-- display every activity of the day in separate columns -->
+     
     <td style="border:dotted 1px; padding:5px;">
+
     <strong><%= weekday.place %></strong><br/>
     <%= weekday.description %><br/>
-    <%= weekday.time %><br/>
+    <%= weekday.hour.strftime("%R") %><br/>
     <%= link_to "Zapisz się", lecture_path(weekday) %>
     </td>
   <% end %>

@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"russian",
+				"russian-label"
+			],
+			[
+				"langu",
+				"languages"
+			],
+			[
+				"lan",
+				"languages"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"kursanci_",
+				"kursanci_uni_id"
+			],
+			[
+				"utm_",
+				"utm_source"
+			],
+			[
+				"utm",
+				"utm_medium"
+			],
+			[
+				"gc",
+				"gclid"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
 				"leaf",
 				"leaflets"
 			],
@@ -36,139 +72,118 @@
 	"buffers":
 	[
 		{
-			"file": "Gemfile",
+			"file": "/var/www/html/AIESEC-University/rejestracja/index.php",
 			"settings":
 			{
-				"buffer_size": 1420,
+				"buffer_size": 5679,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/html/AIESEC-University/rejestracja/style.css",
+			"settings":
+			{
+				"buffer_size": 364,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "config/environments/development.rb",
+			"file": "/var/www/html/AIESEC-University/leads/index.html",
 			"settings":
 			{
-				"buffer_size": 1503,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/welcome/index.html.erb",
+			"file": "/var/www/html/AIESEC-University/leads/index.php",
 			"settings":
 			{
-				"buffer_size": 443,
+				"buffer_size": 11881,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/others/show.html.erb",
+			"file": "/var/www/html/AIESEC-University/rejestracja/register.php",
 			"settings":
 			{
-				"buffer_size": 350,
+				"buffer_size": 2551,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/lectures/show.html.erb",
+			"file": "/var/www/html/AIESEC-University/rejestracja/config.php",
 			"settings":
 			{
-				"buffer_size": 323,
+				"buffer_size": 999,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/html/AIESEC-University/rejestracja/test.php",
+			"settings":
+			{
+				"buffer_size": 1085,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/leaflets/show.html.erb",
+			"file": "/etc/php5/apache2/php.ini",
 			"settings":
 			{
-				"buffer_size": 526,
+				"buffer_size": 69890,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/posters/show.html.erb",
+			"contents": "",
+			"file": "/var/www/html/AIESEC-University/rejestracja/index.html",
+			"file_size": -1,
+			"file_write_time": -1,
 			"settings":
 			{
-				"buffer_size": 355,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/leaflets/index.html.erb",
+			"file": "/var/log/apache2/error.log",
 			"settings":
 			{
-				"buffer_size": 628,
+				"buffer_size": 2523,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/layouts/application.html.erb",
+			"file": "/var/www/html/test.php",
 			"settings":
 			{
-				"buffer_size": 1427,
+				"buffer_size": 19,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/welcome_controller.rb",
+			"file": "/etc/apache2/apache2.conf",
 			"settings":
 			{
-				"buffer_size": 74,
+				"buffer_size": 7116,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "config/routes.rb",
+			"file": "/var/www/html/AIESEC-University/rejestracja/form-handler.js",
 			"settings":
 			{
-				"buffer_size": 1910,
+				"buffer_size": 3202,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/omniauth_callbacks_controller.rb",
+			"file": "/home/patryk/public_html/TEST/ajax.html",
 			"settings":
 			{
-				"buffer_size": 489,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/initializers/devise.rb",
-			"settings":
-			{
-				"buffer_size": 12975,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/user.rb",
-			"settings":
-			{
-				"buffer_size": 986,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/lectures_controller.rb",
-			"settings":
-			{
-				"buffer_size": 1027,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/leaflets_controller.rb",
-			"settings":
-			{
-				"buffer_size": 209,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "db/schema.rb",
-			"settings":
-			{
-				"buffer_size": 3264,
-				"line_ending": "Unix"
+				"buffer_size": 1413,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -200,13 +215,73 @@
 	},
 	"file_history":
 	[
+		"/home/patryk/public_html/AIESEC-University/rejestracja/index.php",
+		"/etc/apache2/apache2.conf",
+		"/home/patryk/public_html/AIESEC-University/rejestracja/register.php",
+		"/home/patryk/public_html/AIESEC-University/leads/index.html",
+		"/home/patryk/public_html/AIESEC-University/leads/less/scaffolding.less",
+		"/home/patryk/public_html/AIESEC-University/leads/less/theme.less",
+		"/home/patryk/public_html/AIESEC-University/leads/less/grid.less",
+		"/home/patryk/public_html/AIESEC-University/leads/less/uni-header.less",
+		"/home/patryk/public_html/AIESEC-University/leads/less/uni-main.less",
+		"/home/patryk/public_html/AIESEC-University/index.php",
+		"/home/patryk/public_html/AIESEC-University/aktualności/index.php",
+		"/home/patryk/public_html/AIESEC-University/leads/.gitignore",
+		"/home/patryk/public_html/AIESEC-University/rejestracja/.gitignore",
+		"/home/patryk/public_html/AIESEC-University/aktualności/.gitignore",
+		"/home/patryk/public_html/AIESEC-University/rejestracja/config.php",
+		"/home/patryk/public_html/AIESEC-University/leads/config.php",
+		"/home/patryk/public_html/TEST/test.php",
+		"/home/patryk/public_html/AIESEC-University/leads/test.php",
+		"/home/patryk/public_html/AIESEC-University/leads/index.php",
+		"/home/patryk/.cache/.fr-NTFiQh/dotpay_kod_skrypty/c1_sms_curl/main.php",
+		"/home/patryk/.cache/.fr-AXvYpS/dotpay_tabelka_401/pl/tabelka.html",
+		"/home/patryk/public_html/PromoOnRails/config/database.yml",
+		"/home/patryk/public_html/promo-test/app/views/lectures/index.html.erb",
+		"/home/patryk/Desktop/GUI.java",
+		"/home/patryk/public_html/AIESEC-University/aktualności/globalhost.php",
+		"/home/patryk/public_html/AIESEC-University/.htaccess",
+		"/home/patryk/public_html/AIESEC-University/aktualności/config.php",
+		"/home/patryk/public_html/devise-test/Gemfile",
+		"/home/patryk/public_html/devise-test/config/database.yml",
+		"/home/patryk/public_html/AIESEC-University/aiesec.pl aiesecuniversity/index.php",
+		"/home/patryk/public_html/AIESEC-University/aiesec.pl aiesecuniversity/test.php",
+		"/home/patryk/public_html/AIESEC-University/aiesec.pl aiesecuniversity/config.php",
+		"/home/patryk/public_html/TEST/globalhost.php",
+		"/home/patryk/public_html/TEST/config.php",
+		"/home/patryk/public_html/podio-test/Gemfile",
+		"/home/patryk/public_html/podio-test/config/routes.rb",
+		"/home/patryk/public_html/podio_rails_sample/config/initializers/podio.rb",
+		"/home/patryk/public_html/promo-test/Gemfile",
+		"/home/patryk/public_html/promo-test/config/environments/development.rb",
+		"/home/patryk/public_html/promo-test/app/views/welcome/index.html.erb",
+		"/home/patryk/public_html/promo-test/app/views/others/show.html.erb",
+		"/home/patryk/public_html/promo-test/app/views/lectures/show.html.erb",
+		"/home/patryk/public_html/promo-test/app/controllers/lectures_controller.rb",
+		"/home/patryk/public_html/promo-test/db/migrate/20141205234314_lectures_change_time_to_hour.rb",
+		"/home/patryk/public_html/promo-test/app/views/posters/show.html.erb",
+		"/home/patryk/public_html/promo-test/app/views/posters/index.html.erb",
+		"/home/patryk/public_html/promo-test/app/views/others/index.html.erb",
+		"/home/patryk/public_html/promo-test/app/views/layouts/application.html.erb",
+		"/home/patryk/public_html/promo-test/app/controllers/welcome_controller.rb",
+		"/home/patryk/public_html/promo-test/app/controllers/users_controller.rb",
+		"/home/patryk/public_html/promo-test/app/views/users/show.html.erb",
+		"/home/patryk/public_html/promo-test/config/routes.rb",
+		"/home/patryk/public_html/promo-test/app/views/users/index.html.erb",
+		"/home/patryk/public_html/promo-test/app/controllers/omniauth_callbacks_controller.rb",
+		"/home/patryk/public_html/promo-test/config/initializers/devise.rb",
+		"/home/patryk/public_html/promo-test/app/models/user.rb",
+		"/home/patryk/public_html/promo-test/app/views/leaflets/index.html.erb",
+		"/home/patryk/public_html/promo-test/app/views/leaflets/show.html.erb",
+		"/home/patryk/public_html/promo-test/app/controllers/leaflets_controller.rb",
+		"/home/patryk/public_html/promo-test/db/schema.rb",
+		"/home/patryk/public_html/promo-test/db/migrate/20141205232652_lectures_time_rollback.rb",
+		"/home/patryk/public_html/promo-test/db/migrate/20141205231741_change_lectures_time_to_string.rb",
+		"/home/patryk/public_html/promo-test/db/migrate/20141205184639_add_provider_to_users.rb",
+		"/home/patryk/public_html/promo-test/db/migrate/20141205230939_change_lectures_time_to_string.rb",
 		"/home/patryk/public_html/promo-test/db/migrate/20141205183526_devise_create_users.rb",
 		"/home/patryk/public_html/AIESEC-University/leads/css/bootstrap.css",
-		"/home/patryk/public_html/promo-test/config/routes.rb",
-		"/home/patryk/public_html/promo-test/Gemfile",
 		"/home/patryk/public_html/promo-test/db/migrate/20141205181517_add_devise_to_users.rb",
-		"/home/patryk/public_html/promo-test/app/views/layouts/application.html.erb",
-		"/home/patryk/public_html/promo-test/config/initializers/devise.rb",
 		"/home/patryk/public_html/clean-rails/Gemfile",
 		"/home/patryk/public_html/clean-rails/Gemfile.lock",
 		"/home/patryk/public_html/devise-test/db/schema.rb",
@@ -214,7 +289,6 @@
 		"/home/patryk/public_html/devise-test/config/initializers/devise.rb",
 		"/home/patryk/public_html/devise-test/app/controllers/omniauth_callbacks_controller.rb",
 		"/home/patryk/public_html/devise-test/app/models/user.rb",
-		"/home/patryk/public_html/promo-test/db/schema.rb",
 		"/home/patryk/public_html/devise-test/app/controllers/application_controller.rb",
 		"/home/patryk/public_html/devise-test/app/controllers/welcome_controller.rb",
 		"/home/patryk/public_html/devise-test/db/migrate/20141205005910_add_image_to_users.rb",
@@ -223,34 +297,13 @@
 		"/home/patryk/public_html/devise-test/app/controllers/omniauth_callback_controller.rb",
 		"/home/patryk/public_html/promo-test/db/migrate/20141204163835_drop_users_table.rb",
 		"/home/patryk/public_html/promo-test/db/migrate/20141204163707_devise_create_users.rb",
-		"/home/patryk/public_html/promo-test/app/controllers/welcome_controller.rb",
 		"/home/patryk/public_html/promo-test/app/controllers/others_controller.rb",
 		"/home/patryk/public_html/promo-test/app/controllers/posters_controller.rb",
-		"/home/patryk/public_html/promo-test/app/controllers/leaflets_controller.rb",
-		"/home/patryk/public_html/promo-test/app/controllers/lectures_controller.rb",
-		"/home/patryk/public_html/promo-test/app/models/user.rb",
-		"/home/patryk/public_html/promo-test/config/environments/development.rb",
-		"/home/patryk/public_html/promo-test/app/views/posters/index.html.erb",
-		"/home/patryk/public_html/promo-test/app/views/others/index.html.erb",
-		"/home/patryk/public_html/promo-test/app/views/leaflets/index.html.erb",
-		"/home/patryk/public_html/promo-test/app/views/lectures/index.html.erb",
-		"/home/patryk/public_html/promo-test/app/views/users/index.html.erb",
-		"/home/patryk/public_html/promo-test/app/views/welcome/index.html.erb",
-		"/home/patryk/public_html/promo-test/app/views/users/show.html.erb",
-		"/home/patryk/public_html/promo-test/app/views/lectures/show.html.erb",
-		"/home/patryk/public_html/promo-test/app/views/leaflets/show.html.erb",
-		"/home/patryk/public_html/AIESEC-University/.htaccess",
 		"/home/patryk/public_html/promo-test/.htaccess",
 		"/home/patryk/public_html/.htaccess",
-		"/home/patryk/public_html/devise-test/Gemfile",
 		"/home/patryk/public_html/promo-test/promo.sublime-workspace",
 		"/home/patryk/public_html/devise-test/config/routes.rb",
-		"/home/patryk/public_html/promo-test/app/views/others/show.html.erb",
-		"/home/patryk/public_html/promo-test/app/views/posters/show.html.erb",
-		"/home/patryk/public_html/AIESEC-University/leads/index.html",
-		"/home/patryk/public_html/promo-test/app/controllers/omniauth_callbacks_controller.rb",
 		"/home/patryk/public_html/promo-test/config/application.rb",
-		"/home/patryk/public_html/promo-test/app/controllers/users_controller.rb",
 		"/home/patryk/public_html/promo-test/db/migrate/20141204160509_add_devise_to_users.rb",
 		"/home/patryk/public_html/promo-test/config/locales/pl.yml",
 		"/home/patryk/.cache/.fr-tmGPHZ/dotpay_kod_skrypty/c1_sms_curl/sprawdz.php",
@@ -276,7 +329,6 @@
 		"/home/patryk/public_html/promo-test/app/controllers/application_controller.rb",
 		"/home/patryk/public_html/promoplatform/db/schema.rb",
 		"/home/patryk/public_html/promoplatform/db/seeds.rb",
-		"/home/patryk/public_html/AIESEC-University/leads/test.php",
 		"/home/patryk/public_html/promoplatform/config/routes.rb",
 		"/home/patryk/public_html/promoplatform/test/controllers/welcome_controller_test.rb",
 		"/home/patryk/public_html/promoplatform/db/migrate/20141129171054_create_users.rb",
@@ -290,10 +342,7 @@
 		"/home/patryk/public_html/promoplatform/app/views/home/index.html.erb",
 		"/home/patryk/public_html/AIESEC-University/leads/less/badges.less",
 		"/home/patryk/public_html/AIESEC-University/leads/less/bootstrap.less",
-		"/home/patryk/public_html/AIESEC-University/leads/less/uni-main.less",
-		"/home/patryk/public_html/AIESEC-University/leads/less/mixins/gradients.less",
-		"/home/patryk/public_html/AIESEC-University/leads/less/mixins/hide-text.less",
-		"/home/patryk/public_html/AIESEC-University/leads/less/mixins/progress-bar.less"
+		"/home/patryk/public_html/AIESEC-University/leads/less/mixins/gradients.less"
 	],
 	"find":
 	{
@@ -311,6 +360,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"on1",
+			"-on\"",
+			"off",
+			"language-checkbox-on",
+			"language-checkbox-off",
+			"short_open_tag",
+			"checkbox",
+			"php5",
+			"\"slow\",",
+			"slow",
+			"<br/>",
+			"row",
 			"omniauth",
 			"ś",
 			"monday",
@@ -335,6 +396,15 @@
 		"regex": false,
 		"replace_history":
 		[
+			"on",
+			"-off\"",
+			"on1",
+			"language-label-on",
+			"language-label-off",
+			"button",
+			"",
+			"fast",
+			"</p>",
 			"weekday",
 			"",
 			"lecture",
@@ -364,387 +434,41 @@
 	"groups":
 	[
 		{
-			"selected": 13,
+			"selected": 8,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Gemfile",
+					"file": "/var/www/html/AIESEC-University/rejestracja/index.php",
 					"settings":
 					{
-						"buffer_size": 1420,
+						"buffer_size": 5679,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1420,
-								1420
+								1563,
+								1563
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 113.0,
+						"translation.y": 692.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "config/environments/development.rb",
+					"file": "/var/www/html/AIESEC-University/rejestracja/style.css",
 					"settings":
 					{
-						"buffer_size": 1503,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1498,
-								1498
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/views/welcome/index.html.erb",
-					"settings":
-					{
-						"buffer_size": 443,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								226,
-								226
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/views/others/show.html.erb",
-					"settings":
-					{
-						"buffer_size": 350,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								60,
-								60
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/views/lectures/show.html.erb",
-					"settings":
-					{
-						"buffer_size": 323,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								52,
-								52
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/views/leaflets/show.html.erb",
-					"settings":
-					{
-						"buffer_size": 526,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								57,
-								57
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/views/posters/show.html.erb",
-					"settings":
-					{
-						"buffer_size": 355,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								58,
-								58
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/views/leaflets/index.html.erb",
-					"settings":
-					{
-						"buffer_size": 628,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								628,
-								628
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "app/views/layouts/application.html.erb",
-					"settings":
-					{
-						"buffer_size": 1427,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								496,
-								496
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "app/controllers/welcome_controller.rb",
-					"settings":
-					{
-						"buffer_size": 74,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								63,
-								63
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "config/routes.rb",
-					"settings":
-					{
-						"buffer_size": 1910,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								73,
-								73
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "app/controllers/omniauth_callbacks_controller.rb",
-					"settings":
-					{
-						"buffer_size": 489,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								489,
-								489
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "config/initializers/devise.rb",
-					"settings":
-					{
-						"buffer_size": 12975,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12920,
-								12920
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 4.0,
-						"translation.y": 3792.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "app/models/user.rb",
-					"settings":
-					{
-						"buffer_size": 986,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								754,
-								754
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "app/controllers/lectures_controller.rb",
-					"settings":
-					{
-						"buffer_size": 1027,
+						"buffer_size": 364,
 						"regions":
 						{
 						},
@@ -757,9 +481,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -768,24 +491,108 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
-					"file": "app/controllers/leaflets_controller.rb",
+					"buffer": 2,
+					"file": "/var/www/html/AIESEC-University/leads/index.html",
 					"settings":
 					{
-						"buffer_size": 209,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								138,
-								138
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1632.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/var/www/html/AIESEC-University/leads/index.php",
+					"settings":
+					{
+						"buffer_size": 11881,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 663.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/var/www/html/AIESEC-University/rejestracja/register.php",
+					"settings":
+					{
+						"buffer_size": 2551,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2103,
+								2103
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 306.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/var/www/html/AIESEC-University/rejestracja/config.php",
+					"settings":
+					{
+						"buffer_size": 999,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								996,
+								996
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -794,29 +601,220 @@
 					"type": "text"
 				},
 				{
-					"buffer": 16,
-					"file": "db/schema.rb",
+					"buffer": 6,
+					"file": "/var/www/html/AIESEC-University/rejestracja/test.php",
 					"settings":
 					{
-						"buffer_size": 3264,
+						"buffer_size": 1085,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3050,
-								3050
+								859,
+								859
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1173.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/etc/php5/apache2/php.ini",
+					"settings":
+					{
+						"buffer_size": 69890,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7240,
+								7254
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 757.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/var/www/html/AIESEC-University/rejestracja/index.html",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/var/log/apache2/error.log",
+					"settings":
+					{
+						"buffer_size": 2523,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3126.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/var/www/html/test.php",
+					"settings":
+					{
+						"buffer_size": 19,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19,
+								19
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/etc/apache2/apache2.conf",
+					"settings":
+					{
+						"buffer_size": 7116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7116,
+								7116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3587.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 12,
+					"file": "/var/www/html/AIESEC-University/rejestracja/form-handler.js",
+					"settings":
+					{
+						"buffer_size": 3202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1751.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/home/patryk/public_html/TEST/ajax.html",
+					"settings":
+					{
+						"buffer_size": 1413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 325.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -841,11 +839,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.422722558449,
 			1.0
 		],
 		"rows":
@@ -870,16 +875,20 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"/var/www/html/AIESEC-University/leads/LEADS.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": false,
 	"side_bar_visible": true,
-	"side_bar_width": 266.0,
+	"side_bar_width": 213.0,
 	"status_bar_visible": true
 }

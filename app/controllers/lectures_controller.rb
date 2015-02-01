@@ -6,8 +6,8 @@ class LecturesController < ApplicationController
     
     @mondays = Lecture.order(:hour).where("day LIKE ?", "po%")
   	@tuesdays = Lecture.order(:hour).where("day LIKE ?", "wt%")
-    # wednesday reads only second letter (r), no other day has r as second letter (it works as regex for "s" and "ś" in sqlite)
-  	@wednesdays = Lecture.order(:hour).where("day LIKE ?", "_r%") #+ Lecture.order(:hour).where("day LIKE ?", "sr%")
+    # wednesday reads only second letter (r), no other day has r as second letter and o as third (it works as regex for "s" and "ś" in sqlite)
+  	@wednesdays = Lecture.order(:hour).where("day LIKE ?", "_ro%") #+ Lecture.order(:hour).where("day LIKE ?", "sr%")
   	@thursdays = Lecture.order(:hour).where("day LIKE ?", "cz%")
   	@fridays = Lecture.order(:hour).where("day LIKE ?", "pi%")
   	@saturdays = Lecture.order(:hour).where("day LIKE ?", "so%")

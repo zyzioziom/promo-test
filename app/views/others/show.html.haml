@@ -1,0 +1,20 @@
+%h1 Zapisz się na inną aktywność
+%hr/
+
+%p
+  %strong
+  = l(@others.date, :format => '%A, %d %b %Y')
+
+%p
+  %strong Co: 
+  = @others.name
+  
+%p
+  %strong Gdzie:
+  = @others.place
+  
+%p
+  %strong Opis:
+  = @others.description
+  
+%p= "Za tą aktywność otrzymasz #{@others.points} punktów!"

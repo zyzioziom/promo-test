@@ -1,0 +1,18 @@
+-if user_signed_in?
+  -if current_user.sign_in_count > 1
+    %h1 
+      Witaj ponownie, 
+      = current_user.name
+      !
+  -else
+    %h1
+      Witaj na Promo Platformie, 
+      = current_user.name
+      !
+      
+      
+%h3 Ekran główny po zalogowaniu
+%p Nagrody do wygrania w tym promotourze
+%p Podium - kto aktualnie prowadzi
+%p shoutbox
+%p statystyki: ilość punktów, aktywności, potwierdzeń, zdobyte odznaki itp

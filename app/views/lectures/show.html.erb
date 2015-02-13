@@ -1,9 +1,0 @@
-<h1>Zapisz się na wykład</h1>
-<hr/>
-<p><strong>Kiedy: </strong> <%= @lectures.day %></p>
-<p><strong>Gdzie:</strong> <%= @lectures.place %></p>
-<p><strong>Opis:</strong> <%= @lectures.description %></p>
-
-<% if @lectures.modifier != 1 %>
-  <p>Za tą aktywność otrzymasz <%= @lectures.modifier %>x więcej punktów!</p>
-<% end %>

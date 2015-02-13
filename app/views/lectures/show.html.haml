@@ -1,0 +1,16 @@
+%h1 Zapisz się na wykład
+%hr/
+%p 
+  %strong Kiedy: 
+  = @lectures.day
+%p
+  %strong Gdzie: 
+  = @lectures.place
+%p
+  %strong Opis: 
+  = @lectures.description
+
+-if @lectures.modifier != 1
+  = @lectures.modifier
+-#  %p= "Za tą aktywność otrzymasz #{@lectures.modifier}x więcej punktów!"
+  

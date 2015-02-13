@@ -1,0 +1,43 @@
+!!! 5
+%html{ :style => "width:100%; height:100%; padding:0; margin:0;" }
+
+%head
+  %title PromoTest
+  = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+  = javascript_include_tag 'application', 'data-turbolinks-track' => true
+  = csrf_meta_tags
+
+%body{ :style => "width:100%; height:100%; padding:0; margin:0; font-family:Ubuntu;" }
+  %div{ :style => "width:20%; height:100%; background:#ddd; float:left;" }
+    %div{ :style => "padding:20px; text-align:center;" }
+      Profil, ranking itp.
+      %hr/
+      -if user_signed_in?
+        %img{ :style => "border-radius:50%;", :src => "#{current_user.image}" }
+        %br/
+        %h3
+          = current_user.name 
+          = current_user.lastname
+        %h4= current_user.email
+
+        = link_to "Wyloguj się", destroy_user_session_path,:method => :delete
+      -else
+        %h1= link_to "Zaloguj się", user_omniauth_authorize_path(:google_oauth2)
+      
+  %div{ :style => "width:80%; float:right;" }
+    %div{ :style => "background:lightblue; padding-left:20px; padding-top:10px; padding-bottom:10px; padding-right:0px;" }
+      %p
+        = link_to "Strona główna", "/"
+        |
+        = link_to "Użytkownicy", users_path
+        |
+        = link_to "Ulotki", leaflets_path  
+        |
+        = link_to "Plakaty", posters_path  
+        |
+        = link_to "Wykłady", lectures_path  
+        |
+        = link_to "Inne", others_path
+
+    %div{ :style => "padding:20px;" }
+      = yield

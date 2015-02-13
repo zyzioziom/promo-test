@@ -1,0 +1,19 @@
+%h1 Ulotki
+%small Za tą aktywność zdobędziesz X punktów
+
+-# group all sorted leaflets by date
+-@leaflets.group_by(&:date).each do |date, leaflets|
+  -# localized date formatting: weekday, day month year
+  %p= l(date, :format => '%A, %d %b %Y')
+  
+  %table
+    %tr
+      -leaflets.each do |leaflet|
+        %td{ :style => "border:dotted 1px; padding:5px;" }
+          %strong= leaflet.place
+          %br/
+          = leaflet.description
+          %br/
+          = link_to "Zapisz się", leaflet_path(leaflet)
+          
+  

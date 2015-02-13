@@ -1,0 +1,14 @@
+%h1 Użytkownicy
+
+%table
+  -@users.each do |user|
+    %tr{ :style => "display:block" }
+      %a{ :href => "#{user_path(user)}" }
+        %td
+          %img{ :style => "border-radius:50%;", :src => "#{user.image}" }
+        %td
+          = user.name
+        %td
+          = user.lastname
+        %td
+          = link_to "Zobacz profil", user_path(user)

@@ -1,0 +1,39 @@
+%h1 Zapisz się na ulotkowanie
+%hr/
+
+%p
+  %strong Kiedy: 
+  = l(@leaflets.date, :format => '%A, %d %b %Y')
+  
+%p
+  %strong Gdzie:
+  = @leaflets.place
+  
+%p
+  %strong Opis: 
+  = @leaflets.description
+
+-if @leaflets.modifier != 1
+  %p= "Za tą aktywność otrzymasz #{@leaflets.modifier}x więcej punktów!"
+  
+%hr/
+
+%p Zapisani
+-activity1 = Activity.find(1)
+-user = User.find(activity1.user_id)
+
+= activity1.id 
+%br/
+%img{ :src => "#{user.image}" }
+= activity1.user_id
+%br/
+= activity1.activity_id
+%br/
+= activity1.confirmed
+
+%hr/
+
+<p>Jeden z trzech przycisków w zależności od statusu użytkownika</p>
+<p>ZAPISZ SIĘ NA AKTYWNOŚĆ<br/>
+<p>POTWIERDŹ AKTYWNOŚĆ<br/>
+<p>WYPISZ SIĘ Z AKTYWNOŚCI</p>

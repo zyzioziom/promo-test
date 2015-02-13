@@ -1,0 +1,17 @@
+%h1 Plakaty
+
+
+-#group all sorted posters by date
+-@posters.group_by(&:date).each do |date, posters|
+  -#  localized date formatting: Weekday, day month year
+  %p= l(date, :format => '%A, %d %b %Y') 
+
+  %table
+    %tr
+      -posters.each do |poster|
+        %td{ :style => "border:dotted 1px; padding:5px;" }
+          %strong= poster.place
+          %br/
+          = poster.description
+          %br/
+          = link_to "Zapisz się", poster_path(poster)

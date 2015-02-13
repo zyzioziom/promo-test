@@ -1,0 +1,14 @@
+%h1 Zapisz się na plakatowanie
+%hr/
+
+%p
+  %strong Kiedy: 
+  = l(@posters.date, :format => '%A, %d %b %Y')
+
+%p
+  %strong Gdzie: 
+  = @posters.place
+    
+%p
+  %strong Opis: 
+  = @posters.description

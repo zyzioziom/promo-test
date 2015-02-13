@@ -1,9 +1,0 @@
-<h1>Zapisz się na plakatowanie</h1>
-<hr/>
-<p><strong>Kiedy: </strong> <%= l(@posters.date, :format => '%A, %d %b %Y') %></p>
-<p><strong>Gdzie:</strong> <%= @posters.place %></p>
-<p><strong>Opis:</strong> <%= @posters.description %></p>
-
-<% if @posters.modifier != 1 %>
-  <p>Za tą aktywność otrzymasz <%= @posters.modifier %>x więcej punktów!</p>
-<% end %>

@@ -1,0 +1,22 @@
+%h1 Wykłady
+
+-# display every day of the week separately
+-@weekdays.each do |weekday| 
+  %table
+    %tr
+      -# if any activities during that day, display it's name
+      -if weekday.any?   
+        %h3= weekday.first.day 
+
+      -# display every activity of the day in separate columns
+      - weekday.each do |weekday| 
+
+        %td{ :style => "border:dotted 1px; padding:5px;" }
+
+          %strong= weekday.place 
+          %br/
+          = weekday.description
+          %br/
+          = weekday.hour.strftime("%R")
+          %br/
+          = link_to "Zapisz się", lecture_path(weekday)

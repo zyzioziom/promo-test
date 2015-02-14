@@ -44,3 +44,4 @@ gem 'omniauth'
 gem 'omniauth-google-oauth2'
 
 gem 'haml'
+gem 'time_diff'

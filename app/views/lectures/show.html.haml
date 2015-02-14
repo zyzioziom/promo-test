@@ -11,6 +11,9 @@
   = @lectures.description
 
 -if @lectures.modifier != 1
-  = @lectures.modifier
--#  %p= "Za tą aktywność otrzymasz #{@lectures.modifier}x więcej punktów!"
-  
+  %p
+    Modifier:
+    = @lectures.modifier
+
+= render "shared/signed"
+= render "shared/signup"

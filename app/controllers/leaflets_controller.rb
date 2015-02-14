@@ -10,10 +10,11 @@ class LeafletsController < ApplicationController
     
 #    get users signed up for this activity
     @signed = Activity.where(activity_type: "leaflets", activity_id: params[:id])
-  end
-  
-  def sign_up
-    render plain: params[:activity].inspect
+    
+     # find if current user is signed up for this activity
+    @signed_user = Activity.where(activity_type: "lectures", activity_id: params[:id], user_id: current_user.id)
+
+    @signup_data = { :user_id => current_user.id, :activity_id => params[:id], :activity_type => params[:controller], :confirmed => false }
   end
   
 end

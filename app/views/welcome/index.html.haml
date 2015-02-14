@@ -1,16 +1,23 @@
 -if user_signed_in?
   -if current_user.sign_in_count > 1
+    -lastlogin = Time.diff(current_user.last_sign_in_at, Date.current())
+    
     %h1 
       Witaj ponownie, 
-      = current_user.name
-      !
+      = current_user.name + "!"
+      
+      -# if last login was 1 month or more ago
+      -if lastlogin[:month] >= 1
+        Dawno Cię nie było!
+          
   -else
     %h1
       Witaj na Promo Platformie, 
-      = current_user.name
-      !
-      
-      
+      = current_user.name + "!"
+
+    
+    
+  
 %h3 Ekran główny po zalogowaniu
 %p Nagrody do wygrania w tym promotourze
 %p Podium - kto aktualnie prowadzi

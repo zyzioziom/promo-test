@@ -1,0 +1,22 @@
+= link_to "Nowa", new_activity_path
+
+-@activities.each do |activity|
+  %p
+    ID:
+    = activity.id
+    |  
+    User ID:
+    = activity.user_id
+    |  
+    Activity type:
+    = activity.activity_type
+    |  
+    Activity ID:
+    = activity.activity_id
+    |
+    Confirmed:
+    = activity.confirmed
+    |
+    Confirmation:
+    = activity.confirmation
+  %hr/

@@ -31,6 +31,7 @@ Rails.application.routes.draw do
   resources :lectures
   resources :others
   resources :users
+  resources :activities
   
   # Example resource route with options:
   #   resources :products do

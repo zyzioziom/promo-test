@@ -1,0 +1,24 @@
+= form_for :activity, url: activities_path do |f|
+  %p
+    User id
+    = f.label :user_id
+    = f.text_field :user_id
+  
+ 
+  %p
+    Activity id
+    = f.label :activity_id
+    = f.text_area :activity_id
+  
+  %p
+    Activity type
+    = f.label :activity_type
+    = f.text_area :activity_type
+    
+  %p
+    true or false
+    = f.label :confirmed
+    = f.text_area :confirmed
+ 
+  %p
+    = f.submit

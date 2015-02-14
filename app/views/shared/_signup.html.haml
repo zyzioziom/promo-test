@@ -1,0 +1,18 @@
+-#check if current user is signed to activity
+-current = @signed.find_by(user_id: current_user.id)
+
+-#if user was found in this activity
+-if !current.nil?
+  -if current.confirmed
+    %p Aktywność potwierdzona - twoje punkty są naliczone
+  -else
+    = render "shared/confirm"
+   
+  
+-else
+  = form_for :activity, url: activities_path do |f|
+    -@signup_data.each do |key,value|
+      = f.hidden_field key, :value => value
+
+    %p
+      = f.submit "Zapisz się na aktywność"

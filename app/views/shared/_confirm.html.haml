@@ -1,0 +1,12 @@
+%h3
+  Twoja aktywność jest niepotwierdzona. Wklej link do zdjęcia z AIESEC na dziko, aby otrzymać punkty:
+
+-#get id of corresponding activity
+-activity_id = @signed.find_by(activity_id: params[:id]).id
+
+= form_for :activity, url: activity_path(activity_id), method: :patch do |f|
+
+  = f.text_field :confirmation, :required => true, :type => "url"
+  = f.hidden_field :confirmed, :value => true
+  
+  = f.submit "Potwierdź"

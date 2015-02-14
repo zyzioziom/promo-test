@@ -6,5 +6,8 @@ class OthersController < ApplicationController
 
   def show
   	@others = Other.find(params[:id])
+    
+    #    get users signed up for this activity
+    @signed = Activity.where(activity_type: "others", activity_id: params[:id])
   end
 end

@@ -1,0 +1,40 @@
+%hr/
+
+-# list users signed for this activity
+#signed
+  %table
+    -if !@signed.any?
+      %p Nikt się jeszcze nie zapisał!
+    -else
+      %p Zapisani
+
+      -@signed.each do |signed|
+
+        -user = User.find_by(id: signed.user_id)
+
+        %a{ :href => "#{user_path(user)}" }
+          -if (signed.confirmed?)
+            %img{ :style => "display: inline-block; border-radius:50%; border: 4px solid lime; box-shadow: 0px 0px 40px lime", :src => "#{user.image}" }
+          -else
+            %img{ :style => "display: inline-block; border-radius:50%; border: 4px solid yellow; box-shadow: 0px 0px 40px yellow", :src => "#{user.image}" }
+
+        = user.name
+        = user.lastname
+        
+%hr/
+  
+-#check if current user is signed
+-current = @signed.find_by(user_id: current_user.id)
+
+-#if user was found in this activity
+-if !current.nil?
+  -if current.confirmed
+    %p Aktywność potwierdzona
+  -else
+    %p Aktywność niepotwierdzona
+    %p Potwierdź aktywność
+   
+  
+-else
+  %p Zapisz się na aktywność
+  

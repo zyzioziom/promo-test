@@ -1,6 +1,6 @@
 class ActivitiesController < ApplicationController
   def index
-    @activities = Activity.order(id: :desc, activity_id: :asc)
+    @activities = Activity.order(id: :desc)
   end
 
   def create
